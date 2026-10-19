@@ -1,0 +1,289 @@
+{
+  "schema_version": 2,
+  "last_attempt": null,
+  "last_success": null,
+  "source_status": "manual_verified_metadata_only",
+  "success_sources": [],
+  "errors": [],
+  "query_window_start": null,
+  "new_added_count": 5,
+  "hits_processed": 0,
+  "papers": [
+    {
+      "doi": "10.1016/j.fuel.2026.138948",
+      "title": "Catalytic hydrothermal liquefaction of microalgae and polystyrene waste for oil production",
+      "authors": [
+        "Arash Hedayati",
+        "Omid Tavakoli"
+      ],
+      "journal": "Fuel",
+      "date": "2026-10-15",
+      "kind": "article",
+      "directions": [
+        "热催化"
+      ],
+      "feedstocks": [
+        "微藻",
+        "HTL 生物原油"
+      ],
+      "reactions": [
+        "加氢",
+        "脱羧/脱羰",
+        "HDN"
+      ],
+      "materials": [
+        "Ni",
+        "Fe"
+      ],
+      "catalyst": "Ni/Al₂O₃；Ni–Fe/Al₂O₃",
+      "key_performance": "螺旋藻/聚苯乙烯共 HTL 中，Ni/Al₂O₃ 和 Ni–Fe/Al₂O₃ 对应生物原油产率分别为 67.33 wt% 与 62.74 wt%；Ni–Fe 体系 HHV 为 42.05 MJ/kg。",
+      "abstract": "基于期刊公开摘要：比较 Ni/Al₂O₃ 和 Ni–Fe/Al₂O₃ 对螺旋藻与聚苯乙烯共水热液化产物质量的影响，重点观察油产率及氧、氮元素变化。研究是原位催化 HTL 制油，并非对独立制得的生物原油进行后续精炼。",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0016236126007015",
+      "id": "doi:10.1016/j.fuel.2026.138948",
+      "url": "https://doi.org/10.1016/j.fuel.2026.138948",
+      "year": 2026,
+      "sources": [
+        "学术期刊出版页/学术索引原始题录"
+      ],
+      "source_links": [
+        "https://www.sciencedirect.com/science/article/pii/S0016236126007015"
+      ],
+      "relevance": 9,
+      "curated": true,
+      "first_seen_at": "2026-10-19T13:55:00Z",
+      "last_seen_at": "2026-10-19T13:55:00Z",
+      "topics": [
+        "manual-verified-20261019"
+      ],
+      "oa_url": "",
+      "cited_by": null,
+      "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+    },
+    {
+      "doi": "10.1016/j.jaap.2026.107975",
+      "title": "Highly selective production of aviation range hydrocarbons from medium chain fatty acids waste coconut oil fatty acid over metal supported on kaolin derived mesoporous silica",
+      "authors": [
+        "Abdul Aziz",
+        "Eko Santoso",
+        "Reva Edra Nugraha",
+        "Stella Jovita",
+        "Muhammad Al Muttaqii",
+        "Yatim Lailun Ni’mah",
+        "Nurul Asikin-Mijan",
+        "Hasliza Bahruji",
+        "Yun Hin Taufiq-Yap",
+        "Didik Prasetyoko"
+      ],
+      "journal": "Journal of Analytical and Applied Pyrolysis",
+      "date": "2026-10",
+      "kind": "article",
+      "directions": [
+        "热催化"
+      ],
+      "feedstocks": [
+        "植物油/脂肪酸"
+      ],
+      "reactions": [
+        "脱羧/脱羰",
+        "HDO"
+      ],
+      "materials": [
+        "Zn",
+        "Ni",
+        "Co",
+        "Cu",
+        "Fe"
+      ],
+      "catalyst": "Zn/高岭土衍生介孔 SiO₂（同时对比 Fe、Ni、Cu、Co）",
+      "key_performance": "Zn/介孔 SiO₂ 催化废椰子油脱氧，论文报告烃类选择性 95.5%、C8–C16 组分占比 95.4%，并进行了 3 次循环测试。",
+      "abstract": "基于期刊公开摘要：通过高岭土制备介孔 SiO₂，负载不同过渡金属并比较其对废椰子油脱氧的效果；Zn 改变 Lewis 酸性和孔道结构。报告的 C8–C16 占比不应直接解释为质量收率。",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0165237026003827",
+      "id": "doi:10.1016/j.jaap.2026.107975",
+      "url": "https://doi.org/10.1016/j.jaap.2026.107975",
+      "year": 2026,
+      "sources": [
+        "学术期刊出版页/学术索引原始题录"
+      ],
+      "source_links": [
+        "https://www.sciencedirect.com/science/article/pii/S0165237026003827"
+      ],
+      "relevance": 9,
+      "curated": true,
+      "first_seen_at": "2026-10-19T13:55:00Z",
+      "last_seen_at": "2026-10-19T13:55:00Z",
+      "topics": [
+        "manual-verified-20261019"
+      ],
+      "oa_url": "",
+      "cited_by": null,
+      "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+    },
+    {
+      "doi": "10.1016/j.fuel.2026.139107",
+      "title": "Hydroxyalkylation/alkylation of furfural and 2-methylfuran over functionalized SBA-15: tuning acidity and hydrophobicity for SAF precursor production",
+      "authors": [
+        "Juan Manuel Gimenez",
+        "Lucas Gabriel Tonutti",
+        "Claudia Amelia Neyertz",
+        "Cristián Alejandro Ferretti",
+        "Carlos Alberto Querini",
+        "María Soledad Zanuttini"
+      ],
+      "journal": "Fuel",
+      "date": "2026-10-01",
+      "kind": "article",
+      "directions": [
+        "热催化"
+      ],
+      "feedstocks": [
+        "生物质衍生物"
+      ],
+      "reactions": [
+        "C-C 偶联"
+      ],
+      "materials": [
+        "介孔 SiO₂",
+        "固体酸"
+      ],
+      "catalyst": "丙基磺酸/辛基双功能化 SBA-15",
+      "key_performance": "在糠醛与 2-甲基呋喃羟烷基化/烷基化中，功能化 SBA-15 目标 C15 前驱体收率达 97%，可重复使用 4 次。",
+      "abstract": "基于期刊公开摘要：通过协同调节 SBA-15 的酸性和疏水基团实现糠醛与 2-甲基呋喃 C–C 偶联，条件为 ≤70 ℃、常压、无溶剂。其产物是可升级为 SAF 的 C15 含氧前驱体，不能视为直接得到合格航空煤油。",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0016236126008604",
+      "id": "doi:10.1016/j.fuel.2026.139107",
+      "url": "https://doi.org/10.1016/j.fuel.2026.139107",
+      "year": 2026,
+      "sources": [
+        "学术期刊出版页/学术索引原始题录"
+      ],
+      "source_links": [
+        "https://www.sciencedirect.com/science/article/pii/S0016236126008604"
+      ],
+      "relevance": 9,
+      "curated": true,
+      "first_seen_at": "2026-10-19T13:55:00Z",
+      "last_seen_at": "2026-10-19T13:55:00Z",
+      "topics": [
+        "manual-verified-20261019"
+      ],
+      "oa_url": "",
+      "cited_by": null,
+      "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+    },
+    {
+      "doi": "10.1016/j.biortech.2026.134886",
+      "title": "Tandem beds catalysis for aviation fuel from aqueous phase bio-oil: synergistic ketonization-HDO toward high-density cycloalkanes",
+      "authors": [
+        "Guangxuan Liu",
+        "Xiaowei Bai",
+        "Yalkunjan Tursun",
+        "Yunpeng Zhao",
+        "Jian Li",
+        "Zhenghua Dai"
+      ],
+      "journal": "Bioresource Technology",
+      "date": "2026-09",
+      "kind": "article",
+      "directions": [
+        "热催化"
+      ],
+      "feedstocks": [
+        "生物质衍生物"
+      ],
+      "reactions": [
+        "C-C 偶联",
+        "HDO"
+      ],
+      "materials": [
+        "Ni",
+        "Pt",
+        "Co"
+      ],
+      "catalyst": "上游 10Ni/CeZrOₓ + 下游 PtNiCo/β 双床体系",
+      "key_performance": "水相生物油双床酮化–HDO 耦合：报告 C8–C16 烃类收率 70.2%、碳效率 >85%、环烷烃选择性 80.8%。",
+      "abstract": "基于期刊摘要与 PubMed 题录：10Ni/CeZrOₓ 上游酮化并减轻原料干扰，下游 PtNiCo/β 深度 HDO，目标为高密度航油范围环烷烃。期刊卷期为 2026 年 9 月；在线优先发表日期为 2026-05-13。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42134586/",
+      "id": "doi:10.1016/j.biortech.2026.134886",
+      "url": "https://doi.org/10.1016/j.biortech.2026.134886",
+      "year": 2026,
+      "sources": [
+        "学术期刊出版页/学术索引原始题录"
+      ],
+      "source_links": [
+        "https://pubmed.ncbi.nlm.nih.gov/42134586/"
+      ],
+      "relevance": 9,
+      "curated": true,
+      "first_seen_at": "2026-10-19T13:55:00Z",
+      "last_seen_at": "2026-10-19T13:55:00Z",
+      "topics": [
+        "manual-verified-20261019"
+      ],
+      "oa_url": "",
+      "cited_by": null,
+      "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+    },
+    {
+      "doi": "10.1007/s13399-026-07246-z",
+      "title": "Advancements in algae-based biocrude upgrading and green hydrogen integration for sustainable aviation fuel production: a comprehensive review",
+      "authors": [
+        "Elmustafa Iboustaten",
+        "Oussama Bayssi",
+        "Loubna Bousselamti",
+        "Meryeme Azaroual",
+        "Nouhayla Atmani",
+        "Sanae Habchi",
+        "Hamza Chater",
+        "Abdullah Zahid Turan",
+        "Ayoub Hirt",
+        "Velid Demir"
+      ],
+      "journal": "Biomass Conversion and Biorefinery",
+      "date": "2026-09-09",
+      "kind": "review",
+      "directions": [
+        "热催化"
+      ],
+      "feedstocks": [
+        "微藻",
+        "HTL 生物原油"
+      ],
+      "reactions": [
+        "HDO",
+        "HDN",
+        "加氢裂化"
+      ],
+      "materials": [],
+      "catalyst": "综述多种 HDN/HDO 加氢处理催化体系，非单一新催化剂",
+      "key_performance": "系统总结藻类 HTL 生物原油 HDO、HDN、加氢处理与低碳氢气耦合路线；本篇是综述，不提供单一催化剂的新实验收率。",
+      "abstract": "基于 Springer 公开全文：梳理藻类 HTL–SAF 供应链，并关注 HDN 的困难、氢来源和工艺能耗，对藻类复杂生物原油催化剂筛选具有专题参考价值。",
+      "source_url": "https://link.springer.com/article/10.1007/s13399-026-07246-z",
+      "id": "doi:10.1007/s13399-026-07246-z",
+      "url": "https://doi.org/10.1007/s13399-026-07246-z",
+      "year": 2026,
+      "sources": [
+        "学术期刊出版页/学术索引原始题录"
+      ],
+      "source_links": [
+        "https://link.springer.com/article/10.1007/s13399-026-07246-z"
+      ],
+      "relevance": 9,
+      "curated": true,
+      "first_seen_at": "2026-10-19T13:55:00Z",
+      "last_seen_at": "2026-10-19T13:55:00Z",
+      "topics": [
+        "manual-verified-20261019"
+      ],
+      "oa_url": "",
+      "cited_by": null,
+      "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+    }
+  ],
+  "manual_curated_at": "2026-10-19T13:55:00Z",
+  "manual_curated_count": 5,
+  "curation_source": "Academic publisher article pages, PubMed journal-index record, institutional bibliographic record; no campus-network access"
+}
