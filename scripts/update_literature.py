@@ -78,6 +78,29 @@ def detect(title, abstract, assigned=''):
     return dict(directions=directions,feedstocks=feedstocks,reactions=reactions,materials=materials,relevance=score,accepted=has_substrate and has_process)
 
 
+def classify_scope(title, abstract):
+    """Conservative TITLE/ABSTRACT-only SAF catalyst relevance triage; never imply full text read."""
+    text=(str(title or '')+' '+str(abstract or '')).lower()
+    has=lambda pattern: bool(re.search(pattern,text))
+    oil=has(r'bio[ -]?oil|biocrude|pyrolysis oil|hydrothermal liquefaction|htl biocrude')
+    saf=has(r'\bjet[ -]?fuel|bio[ -]?jet|aviation[ -]?(?:fuel|kerosene)|sustainable aviation fuel|\bsaf\b')
+    fuel=has(r'fuel[ -]?range|jet[ -]?range|cycloalkane|renewable diesel|\bc8[–-]c16\b|hydrocarbon')
+    catal=has(r'cataly|hydrodeoxy|hydrodenitro|hydrocrack|hydrotreat|hydroisomer|plasma|dielectric barrier discharge|electrochemic|electrocataly|photocataly|photothermal|zeolite|supported metal|metal supported|bimetall|\bhdo\b|\bhdn\b')
+    up=has(r'upgrad|hydrodeoxy|hydrodenitro|hydrocrack|isomeri|hydrogenat|hydrotreat|alkylat|decarboxyl|decarbonyl|coupling|oligomeri|reform|deoxy')
+    feed=has(r'biomass|alga|microalga|chlorella|spirulina|lignin|lignocellulos|guaiacol|fatty acid|oleic acid|stearic acid|palmitic acid|hexadecanamide|lipids?|triglyceride|furfural|vegetable oil|bio[ -]?derived|phenolic|coconut')
+    noise=has(r'wastewater|sewage treatment|biosensor|dye degradation|heavy metal adsorp|photodegradation of pollutants|soil remediation|microbial community|antibiotic removal|antibiotic degradation|organic pollutants|parkinson|neuroinflammat') and not saf and not oil
+    score=int(oil)*4+int(saf)*5+int(catal)*3+int(up)*2+int(feed)+int(fuel)+bool(abstract)-int(noise)*7
+    tier='可能不相关'
+    if not noise and catal and not (re.search(r'distillation|life cycle assessment|techno-economic|combustion|emissions',str(title or '').lower()) and not re.search(r'cataly|hydrodeoxy|hydrodenitro|hydrocrack|plasma',str(title or '').lower())) and ((saf and (feed or fuel or oil)) or (oil and up)):
+        tier='核心相关'
+    elif not noise and ((catal and (feed or oil or saf)) or (saf and feed)):
+        tier='扩展参考'
+    elif not noise and (oil or saf or feed):
+        tier='背景候选'
+    return {'screening_tier':tier,'screening_score':int(score),
+            'screening_method':'Title/abstract keyword triage; NOT full-text verified',
+            'fulltext_status':'全文待核验'}
+
 def common_record(title,abstract,doi,authors,journal,date,source,ref_url,assigned,kind='',cited_by=None,oa_url=''):
     title=clean_text(title)
     if not title:return None
@@ -93,7 +116,8 @@ def common_record(title,abstract,doi,authors,journal,date,source,ref_url,assigne
       'kind':kind, 'sources':[source], 'directions':info['directions'],'feedstocks':info['feedstocks'],
       'reactions':info['reactions'],'materials':info['materials'],'relevance':info['relevance'],
       'cited_by':cited_by,'oa_url':oa_url or '', 'evidence_status':'元数据/摘要，实验性能待全文核验',
-      'first_seen_at':utc_now(),'last_seen_at':utc_now(),'topics':[], 'curated':False}
+      'first_seen_at':utc_now(),'last_seen_at':utc_now(),'topics':[], 'curated':False,
+      **classify_scope(title, abstract)}
 
 
 def openalex(query,from_date,n,key=''):
@@ -173,12 +197,18 @@ def run(max_topics=None):
         print('All API sources failed; preserving last successful snapshot.',file=sys.stderr)
         for err in errors:print(err,file=sys.stderr)
         return 2
+    # Backfill and re-assess older metadata without overwriting any manual notes.
+    for v in prev.values():
+        v.update({k:w for k,w in classify_scope(v.get('title',''),v.get('abstract','')).items() if k!='fulltext_status'})
+        v.setdefault('fulltext_status','全文待核验')
     papers=sorted(prev.values(),key=lambda p:((p.get('date') or '0000'),(p.get('first_seen_at') or '')),reverse=True)
     papers=papers[:cfg['max_stored_papers']]
     raw.update({'schema_version':2,'last_attempt':utc_now(),'last_success':utc_now(),
                 'source_status':'success' if not errors else 'partial',
                 'success_sources':sorted(set(successes)), 'errors':errors[:30],
-                'query_window_start':from_date,'new_added_count':new_cnt,'hits_processed':hits,'papers':papers})
+                'query_window_start':from_date,'new_added_count':new_cnt,'hits_processed':hits,
+                'priority_recommendation_ids':[x['id'] for x in sorted((p for p in papers if p.get('screening_tier')=='核心相关' and p.get('first_seen_at','')[:10]==now.date().isoformat()),key=lambda x:(-x.get('screening_score',0),x.get('date','')))[:8]],
+                'screening_counts':{t:sum(p.get('screening_tier')==t for p in papers) for t in ('核心相关','扩展参考','背景候选','可能不相关')},'papers':papers})
     DB.parent.mkdir(exist_ok=True,parents=True)
     tmp=DB.with_suffix('.json.tmp')
     tmp.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
