@@ -40,3 +40,18 @@
 `index.html` 前端 · `data/papers.json` 文献快照 · `scripts/update_literature.py` 检索抓取逻辑 · `config/topics.json` 主题 · `.github/workflows/daily-literature.yml` 每日任务 · `tests/` 测试。
 
 浏览器已测试新入口、参数筛选、CSV 下载、详情与催化剂跳转、三表联动和四大方向页跳转；更新程序 7 项单元测试通过。未在用户 GitHub 进行云端部署与真实联网抓取。
+
+## V2.5 文献质量审核（2026-10-19）
+
+- 新增侧边栏「文献质量审核」，按照 **核心相关 / 扩展参考 / 背景候选 / 可能不相关** 筛选，全部属于**标题/摘要算法初筛**，不是全文结论。
+- 每轮最优先阅读**最多 8 篇**，仅从最近一次新发现的核心相关论文中挑选；若没有则为 0 篇，不凑数。数据库本身不设置每天固定新增数。
+- 所有自动导入文章默认为 **全文待核验**；只有用户在网页内同时填写阅读笔记及可追溯的 PDF/页码/图表证据，才可手动标记为 **已精读**。
+- 精读状态、个人证据和笔记只保存在当前浏览器的 `localStorage`，**不会自动上传到公开 GitHub 仓库**。请定期在 APP 中导出备份。
+- 后台 `scripts/update_literature.py` 在每日抓取后计算 `screening_tier`, `screening_score`, `screening_counts`；原始文献都保留（不会误删低相关条目），人工原文核验结果不由程序自动生成。
+- 网站部署选择 **Settings → Pages → Source: GitHub Actions**。静态部署工作流 `.github/workflows/deploy-pages.yml` 会在网页或文献 JSON 变动后重新发布。
+
+### 中国大陆网络访问
+
+GitHub Pages 在某些网络环境无法稳定访问，不能承诺永久免费或无需代理访问。可下载单文件 HTML 离线阅览既有条目；如需在线且免代理，需要单独配置国内可用的静态托管站点、域名/可能的备案及每日数据镜像同步。不要把私人 Obsidian 笔记上传到公开仓库。
+
+Windows 本地建议目录：`D:\desktop\GPT\paper reading`（下载后自行保存；云端脚本不能直接写入个人电脑）。
