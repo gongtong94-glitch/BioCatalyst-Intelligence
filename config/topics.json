@@ -1,0 +1,123 @@
+{
+  "description": "Bio-oil / SAF catalyst literature monitoring topics, bilingual and extensible",
+  "topics": [
+    {
+      "id": "HTL-HDN",
+      "name": "微藻 HTL 生物原油深度脱氮",
+      "query": "microalgae hydrothermal liquefaction biocrude hydrodenitrogenation",
+      "direction": "热催化"
+    },
+    {
+      "id": "BIO-HDO",
+      "name": "生物油加氢脱氧",
+      "query": "bio-oil hydrodeoxygenation catalyst",
+      "direction": "热催化"
+    },
+    {
+      "id": "BIO-HCK",
+      "name": "航空燃油加氢裂化异构化",
+      "query": "biojet fuel biomass hydrocracking hydroisomerization",
+      "direction": "热催化"
+    },
+    {
+      "id": "HTL-UP",
+      "name": "HTL 生物原油催化升级",
+      "query": "hydrothermal liquefaction biocrude catalytic upgrading",
+      "direction": "热催化"
+    },
+    {
+      "id": "EL-UP",
+      "name": "电催化生物油提质",
+      "query": "electrocatalytic bio-oil upgrading hydrogenation",
+      "direction": "电催化"
+    },
+    {
+      "id": "PH-UP",
+      "name": "光催化生物质燃油前体",
+      "query": "photocatalytic biomass jet fuel hydrocarbons",
+      "direction": "光催化"
+    },
+    {
+      "id": "NTP-UP",
+      "name": "低温等离子体生物油提质",
+      "query": "non thermal plasma bio-oil upgrading jet fuel",
+      "direction": "低温等离子体"
+    },
+    {
+      "id": "ZEOLITE",
+      "name": "分子筛生物油催化裂化",
+      "query": "catalytic cracking bio-oil zeolite aviation fuel",
+      "direction": "热催化"
+    },
+    {
+      "id": "MULTIMETAL",
+      "name": "多金属与高熵催化剂",
+      "query": "multimetal nickel cobalt manganese bio-oil upgrading",
+      "direction": "热催化"
+    },
+    {
+      "id": "HTL-HDN2",
+      "name": "两段式生物原油深度脱氮",
+      "query": "two stage hydrotreating microalgae HTL biocrude denitrogenation",
+      "direction": "热催化"
+    },
+    {
+      "id": "BIO-HISO",
+      "name": "航空生物燃料加氢异构化",
+      "query": "bio aviation fuel n-alkane hydroisomerization catalyst",
+      "direction": "热催化"
+    },
+    {
+      "id": "BIO-DECARB",
+      "name": "生物油脱羧脱羰",
+      "query": "bio oil catalytic decarboxylation deoxygenation catalyst",
+      "direction": "热催化"
+    },
+    {
+      "id": "BIO-PHOSPHIDE",
+      "name": "金属磷化物生物油脱氧脱氮",
+      "query": "metal phosphide hydrodeoxygenation hydrodenitrogenation biocrude",
+      "direction": "热催化"
+    },
+    {
+      "id": "ELECTRO-KOLBE",
+      "name": "电催化脱羧制航空燃料",
+      "query": "Kolbe electrolysis bio based fatty acids aviation fuel",
+      "direction": "电催化"
+    },
+    {
+      "id": "ELECTRO-ECH",
+      "name": "生物油酚类电化学加氢",
+      "query": "electrocatalytic hydrogenation guaiacol bio oil ruthenium",
+      "direction": "电催化"
+    },
+    {
+      "id": "PHOTO-DECARB",
+      "name": "光催化生物质有机酸脱羧偶联",
+      "query": "photocatalytic decarboxylative coupling biomass jet fuel",
+      "direction": "光催化"
+    },
+    {
+      "id": "PHOTO-THERMAL",
+      "name": "生物质衍生物光热提质",
+      "query": "photothermal catalysis biomass derived bio oil upgrading",
+      "direction": "光催化"
+    },
+    {
+      "id": "NTP-DBD",
+      "name": "DBD等离子体生物油模型物提质",
+      "query": "dielectric barrier discharge plasma guaiacol bio oil upgrading",
+      "direction": "低温等离子体"
+    },
+    {
+      "id": "NTP-LIQUID",
+      "name": "液膜等离子体生物油提质",
+      "query": "liquid film dielectric barrier discharge plasma bio oil upgrading",
+      "direction": "低温等离子体"
+    }
+  ],
+  "max_per_topic_per_source": 25,
+  "daily_lookback_days": 45,
+  "first_run_lookback_days": 540,
+  "max_stored_papers": 2500
+}
