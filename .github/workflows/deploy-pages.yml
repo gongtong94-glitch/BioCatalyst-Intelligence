@@ -1,0 +1,55 @@
+name: Publish BioCatalyst Intelligence Website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/papers.json'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: biocatalyst-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out application
+        uses: actions/checkout@v4
+      - name: Prepare static website and verify data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          html = Path('index.html')
+          db = Path('data/papers.json')
+          assert html.is_file(), 'index.html is missing'
+          data = json.loads(db.read_text(encoding='utf-8'))
+          assert isinstance(data.get('papers'), list), 'papers.json missing papers array'
+          out = Path('_site')
+          (out / 'data').mkdir(parents=True, exist_ok=True)
+          (out / 'index.html').write_bytes(html.read_bytes())
+          (out / 'data' / 'papers.json').write_bytes(db.read_bytes())
+          (out / '.nojekyll').touch()
+          print('Pages asset validation OK. Paper count:', len(data['papers']))
+          PY
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
