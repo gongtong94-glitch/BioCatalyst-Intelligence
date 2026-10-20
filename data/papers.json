@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "last_attempt": "2026-10-19T14:39:27Z",
-  "last_success": "2026-10-19T14:39:27Z",
+  "last_attempt": "2026-10-20T00:58:50Z",
+  "last_success": "2026-10-20T00:58:50Z",
   "source_status": "success",
   "success_sources": [
     "Crossref",
     "OpenAlex"
   ],
   "errors": [],
-  "query_window_start": "2025-04-27",
-  "new_added_count": 131,
-  "hits_processed": 214,
+  "query_window_start": "2026-09-05",
+  "new_added_count": 0,
+  "hits_processed": 108,
   "papers": [
     {
       "id": "doi:10.1016/j.apcatb.2026.127608",
@@ -46,13 +46,17 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:23Z",
+      "last_seen_at": "2026-10-20T00:58:45Z",
       "topics": [
         "BIO-HCK",
         "PH-UP",
         "PHOTO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 4,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.apcatb.2026.127518",
@@ -93,13 +97,17 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:41Z",
       "topics": [
         "BIO-HCK",
         "PH-UP",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.jmst.2026.07.086",
@@ -134,12 +142,16 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:10Z",
+      "last_seen_at": "2026-10-20T00:58:36Z",
       "topics": [
         "BIO-HCK",
         "PH-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": -3,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.apcatb.2026.127557",
@@ -180,13 +192,17 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:10Z",
+      "last_seen_at": "2026-10-20T00:58:36Z",
       "topics": [
         "BIO-HCK",
         "HTL-UP",
         "PH-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 3,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.jphotochem.2026.117794",
@@ -222,11 +238,15 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:06Z",
+      "last_seen_at": "2026-10-20T00:58:33Z",
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": -3,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.fuel.2026.141664",
@@ -263,13 +283,17 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "BIO-HCK",
         "HTL-UP",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.biomaterials.2026.124642",
@@ -308,11 +332,15 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:03Z",
-      "last_seen_at": "2026-10-19T14:39:03Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": -3,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1080/15567036.2026.2743106",
@@ -354,11 +382,15 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:17Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ep.70745",
@@ -389,11 +421,15 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ep.70745",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:08Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "EL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": -2,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acscatal.6c04829",
@@ -437,13 +473,17 @@
       "oa_url": "https://pubs.acs.org/accacs/article-pdf/doi/10.1021/acscatal.6c04829/68878247/cs-2026-04829f.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:21Z",
+      "last_seen_at": "2026-10-20T00:58:44Z",
       "topics": [
         "BIO-HDO",
         "EL-UP",
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "doi": "10.1016/j.fuel.2026.138948",
@@ -494,7 +534,11 @@
       "oa_url": "",
       "cited_by": null,
       "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
-      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明",
+      "screening_tier": "扩展参考",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.fuproc.2026.108619",
@@ -526,14 +570,18 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0378382026002262/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "BIO-HDO",
         "HTL-UP",
         "NTP-UP",
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.jaap.2026.108175",
@@ -572,11 +620,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0165237026005826/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:12Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.26554/ijems.2026.10.4.380-389",
@@ -616,12 +668,16 @@
       "oa_url": "https://ijoems.com/index.php/ijems/article/download/715/232",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-HDO",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.apsusc.2026.168631",
@@ -661,11 +717,15 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.cartre.2026.100704",
@@ -703,11 +763,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S266705692600101X/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.5071/34theubce2026-5av.4.19",
@@ -747,11 +811,15 @@
       "oa_url": "https://doi.org/10.5071/34theubce2026-5av.4.19",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acssuschemeng.6c09044",
@@ -794,11 +862,15 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/cssc.71085",
@@ -839,11 +911,15 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cssc.71085",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.ecmx.2026.102373",
@@ -880,11 +956,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S2590174526008561/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.jaap.2026.108169",
@@ -925,13 +1005,17 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0165237026005760/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-HDO",
         "EL-UP",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acssuschemeng.6c04070",
@@ -961,11 +1045,15 @@
       "oa_url": "https://doi.org/10.1021/acssuschemeng.6c04070",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:04Z",
+      "last_seen_at": "2026-10-20T00:58:30Z",
       "topics": [
         "BIO-HDO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s13399-026-07306-4",
@@ -1003,11 +1091,15 @@
       "oa_url": "https://link.springer.com/content/pdf/10.1007/s13399-026-07306-4.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:17Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/aesr.70286",
@@ -1045,11 +1137,15 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aesr.70286",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:12Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.cattod.2026.116022",
@@ -1093,11 +1189,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0920586126003469/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:08Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "EL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ceat.70326",
@@ -1133,11 +1233,15 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ceat.70326",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:08Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "EL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/adsu.70680",
@@ -1175,12 +1279,16 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adsu.70680",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-HDO",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.6c05037",
@@ -1216,7 +1324,7 @@
       "oa_url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c05037/68726081/acsomega.6c05037.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:02Z",
-      "last_seen_at": "2026-10-19T14:39:19Z",
+      "last_seen_at": "2026-10-20T00:58:43Z",
       "topics": [
         "HTL-HDN",
         "BIO-HDO",
@@ -1225,7 +1333,11 @@
         "HTL-HDN2",
         "BIO-PHOSPHIDE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "doi": "10.1016/j.fuel.2026.139107",
@@ -1277,7 +1389,11 @@
       "oa_url": "",
       "cited_by": null,
       "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
-      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明",
+      "screening_tier": "扩展参考",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "doi": "10.1016/j.jaap.2026.107975",
@@ -1337,7 +1453,11 @@
       "oa_url": "",
       "cited_by": null,
       "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
-      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明",
+      "screening_tier": "扩展参考",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.35691/jbm.6202.0034",
@@ -1371,11 +1491,15 @@
       "oa_url": "https://doi.org/10.35691/jbm.6202.0034",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:12Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.joei.2026.102731",
@@ -1415,12 +1539,16 @@
       "oa_url": "",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:04Z",
-      "last_seen_at": "2026-10-19T14:39:25Z",
+      "last_seen_at": "2026-10-20T00:58:48Z",
       "topics": [
         "BIO-HDO",
         "NTP-DBD"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.rineng.2026.113279",
@@ -1455,13 +1583,17 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S2590123026042908/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:07Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "HTL-UP",
         "HTL-HDN2",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/slct.74658",
@@ -1504,13 +1636,17 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/slct.74658",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "EL-UP",
         "PH-UP",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/advs.78026",
@@ -1550,12 +1686,16 @@
       "oa_url": "https://doi.org/10.1002/advs.78026",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:12Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "ZEOLITE",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.nexus.2026.100835",
@@ -1590,12 +1730,16 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S277242712600207X/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:07Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "HTL-UP",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.6c00224",
@@ -1627,11 +1771,15 @@
       "oa_url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c00224/68665970/acsomega.6c00224.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:17Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.fuproc.2026.108599",
@@ -1672,14 +1820,18 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0378382026002067/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-HCK",
         "HTL-UP",
         "BIO-HISO",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.psep.2026.109647",
@@ -1717,7 +1869,7 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0957582026012656/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:02Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "HTL-HDN",
         "HTL-UP",
@@ -1725,7 +1877,11 @@
         "HTL-HDN2",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.biteb.2026.103088",
@@ -1767,7 +1923,7 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S2589014X26005463/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:02Z",
-      "last_seen_at": "2026-10-19T14:39:19Z",
+      "last_seen_at": "2026-10-20T00:58:43Z",
       "topics": [
         "HTL-HDN",
         "HTL-UP",
@@ -1777,7 +1933,11 @@
         "BIO-DECARB",
         "BIO-PHOSPHIDE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 16,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.9767/bcrec.20823",
@@ -1817,14 +1977,18 @@
       "oa_url": "https://journal.bcrec.id/index.php/bcrec/article/download/20823/10012",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:17Z",
+      "last_seen_at": "2026-10-20T00:58:42Z",
       "topics": [
         "BIO-HCK",
         "PH-UP",
         "ZEOLITE",
         "BIO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124439",
@@ -1859,11 +2023,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0926669026018285/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:11Z",
-      "last_seen_at": "2026-10-19T14:39:11Z",
+      "last_seen_at": "2026-10-20T00:58:36Z",
       "topics": [
         "NTP-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ache.70011",
@@ -1901,11 +2069,15 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ache.70011",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:08Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "EL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ep.70705",
@@ -1948,13 +2120,17 @@
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ep.70705",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:16Z",
+      "last_seen_at": "2026-10-20T00:58:41Z",
       "topics": [
         "EL-UP",
         "ZEOLITE",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.54503/0321-1339-2026.126.2-7",
@@ -1988,11 +2164,15 @@
       "oa_url": "https://reports.sci.am/index.php/reports/article/download/49/37/821",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:08Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "EL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.103530",
@@ -2027,11 +2207,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S2949822826019477/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:08Z",
-      "last_seen_at": "2026-10-19T14:39:08Z",
+      "last_seen_at": "2026-10-20T00:58:34Z",
       "topics": [
         "EL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.cogsc.2026.101103",
@@ -2069,14 +2253,18 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S2452223626000453/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:07Z",
-      "last_seen_at": "2026-10-19T14:39:20Z",
+      "last_seen_at": "2026-10-20T00:58:43Z",
       "topics": [
         "HTL-UP",
         "EL-UP",
         "ZEOLITE",
         "ELECTRO-KOLBE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.6c06090",
@@ -2111,11 +2299,15 @@
       "oa_url": "https://doi.org/10.1021/acsomega.6c06090",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:12Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/molecules31183273",
@@ -2156,11 +2348,15 @@
       "oa_url": "https://doi.org/10.3390/molecules31183273",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:07Z",
-      "last_seen_at": "2026-10-19T14:39:07Z",
+      "last_seen_at": "2026-10-20T00:58:33Z",
       "topics": [
         "HTL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": -2,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acs.energyfuels.6c02780",
@@ -2196,11 +2392,15 @@
       "oa_url": "https://pubs.acs.org/enfuem/article-pdf/doi/10.1021/acs.energyfuels.6c02780/68506535/acs.energyfuels.6c02780.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:07Z",
-      "last_seen_at": "2026-10-19T14:39:07Z",
+      "last_seen_at": "2026-10-20T00:58:33Z",
       "topics": [
         "HTL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 16,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1038/s41467-026-77708-5",
@@ -2247,13 +2447,17 @@
       "oa_url": "https://www.nature.com/articles/s41467-026-77708-5_reference.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:11Z",
-      "last_seen_at": "2026-10-19T14:39:24Z",
+      "last_seen_at": "2026-10-20T00:58:46Z",
       "topics": [
         "NTP-UP",
         "ZEOLITE",
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1093/ce/zkag063",
@@ -2290,7 +2494,7 @@
       "oa_url": "https://academic.oup.com/ce/advance-article-pdf/doi/10.1093/ce/zkag063/71045126/zkag063.pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:06Z",
-      "last_seen_at": "2026-10-19T14:39:16Z",
+      "last_seen_at": "2026-10-20T00:58:41Z",
       "topics": [
         "BIO-HCK",
         "HTL-UP",
@@ -2298,7 +2502,11 @@
         "ZEOLITE",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.sajce.2026.100999",
@@ -2338,11 +2546,15 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S1026918526001708/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:12Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "doi": "10.1007/s13399-026-07246-z",
@@ -2404,7 +2616,11 @@
       "oa_url": "https://link.springer.com/content/pdf/10.1007/s13399-026-07246-z.pdf",
       "cited_by": 0,
       "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
-      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明",
+      "screening_tier": "核心相关",
+      "screening_score": 16,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.biombioe.2026.110041",
@@ -2447,12 +2663,16 @@
       "oa_url": "https://www.sciencedirect.com/science/article/pii/S0961953426011177/pdf",
       "evidence_status": "元数据/摘要，实验性能待全文核验",
       "first_seen_at": "2026-10-19T14:39:09Z",
-      "last_seen_at": "2026-10-19T14:39:12Z",
+      "last_seen_at": "2026-10-20T00:58:37Z",
       "topics": [
         "PH-UP",
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ejoc.70832",
@@ -2499,7 +2719,11 @@
         "PH-UP",
         "PHOTO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.fuproc.2026.108570",
@@ -2546,7 +2770,11 @@
       "topics": [
         "HTL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.biombioe.2026.110027",
@@ -2590,7 +2818,11 @@
       "topics": [
         "HTL-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "doi": "10.1016/j.biortech.2026.134886",
@@ -2644,7 +2876,11 @@
       "oa_url": "",
       "cited_by": null,
       "evidence_status": "出版题录/公开摘要核验；性能来自公开摘要，未完成全文数据复核",
-      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明"
+      "publication_date_basis": "期刊卷期日期；具体早期在线发表日期另见条目说明",
+      "screening_tier": "核心相关",
+      "screening_score": 14,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.6c05837",
@@ -2687,7 +2923,11 @@
       "topics": [
         "ZEOLITE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1093/nsr/nwag557",
@@ -2732,7 +2972,11 @@
       "topics": [
         "PH-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/cssc.71027",
@@ -2772,7 +3016,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "title:integratedthermochemicalconversionofmicroalgaeforsustainablebiofuelproductionanoverview",
@@ -2814,7 +3062,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s42247-026-01514-4",
@@ -2858,7 +3110,11 @@
       "topics": [
         "PH-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acs.energyfuels.6c03060",
@@ -2905,7 +3161,11 @@
       "topics": [
         "PH-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s43393-026-00542-9",
@@ -2942,7 +3202,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.sajce.2026.100972",
@@ -2986,7 +3250,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "可能不相关",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1038/s41467-026-76635-9",
@@ -3032,7 +3300,11 @@
       "topics": [
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16080715",
@@ -3075,7 +3347,11 @@
       "topics": [
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153911",
@@ -3117,7 +3393,11 @@
       "topics": [
         "NTP-LIQUID"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16080711",
@@ -3158,7 +3438,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.sajce.2026.100965",
@@ -3204,7 +3488,11 @@
       "topics": [
         "NTP-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/pr14152441",
@@ -3246,7 +3534,11 @@
         "NTP-UP",
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.fuel.2026.140791",
@@ -3287,7 +3579,11 @@
       "topics": [
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3389/fctls.2026.1844410",
@@ -3326,7 +3622,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.sajce.2026.100959",
@@ -3369,7 +3669,11 @@
         "BIO-HCK",
         "NTP-UP"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s44372-026-00778-8",
@@ -3404,7 +3708,11 @@
         "NTP-DBD",
         "NTP-LIQUID"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3389/fceng.2026.1890729",
@@ -3446,7 +3754,11 @@
       "topics": [
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16070636",
@@ -3495,7 +3807,11 @@
         "HTL-HDN2",
         "BIO-PHOSPHIDE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.cej.2026.179462",
@@ -3540,7 +3856,11 @@
       "topics": [
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/pr14142228",
@@ -3576,7 +3896,11 @@
       "topics": [
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1186/s13068-026-02777-z",
@@ -3612,7 +3936,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acs.energyfuels.6c01673",
@@ -3655,7 +3983,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/pr14121973",
@@ -3692,7 +4024,11 @@
       "topics": [
         "NTP-LIQUID"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16060560",
@@ -3737,7 +4073,11 @@
         "NTP-DBD",
         "NTP-LIQUID"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s12209-026-00490-4",
@@ -3774,7 +4114,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 4,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.enconman.2026.121766",
@@ -3815,7 +4159,11 @@
       "topics": [
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.micromeso.2026.114276",
@@ -3857,7 +4205,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acs.energyfuels.6c00496",
@@ -3906,7 +4258,11 @@
       "topics": [
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.6c01555",
@@ -3944,7 +4300,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 9,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.6c01264",
@@ -3989,7 +4349,11 @@
       "topics": [
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/materproc2026031026",
@@ -4027,7 +4391,11 @@
       "topics": [
         "PHOTO-THERMAL"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.62762/jcerf.2026.241704",
@@ -4066,7 +4434,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/cssc.202501405",
@@ -4105,7 +4477,11 @@
       "topics": [
         "PHOTO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16040330",
@@ -4154,7 +4530,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.26599/nr.2026.94908659",
@@ -4199,7 +4579,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.57237/j.cse.2026.01.002",
@@ -4242,7 +4626,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/cleantechnol8020034",
@@ -4291,7 +4679,11 @@
         "HTL-HDN",
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 16,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.nxener.2026.100543",
@@ -4328,7 +4720,11 @@
       "topics": [
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/en19051265",
@@ -4374,7 +4770,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.64030/3069-2075.03.01.03",
@@ -4407,7 +4807,11 @@
       "topics": [
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16030212",
@@ -4452,7 +4856,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1051/e3sconf/202669501005/pdf",
@@ -4497,7 +4905,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.61435/ijred.2026.62076",
@@ -4542,7 +4954,11 @@
         "BIO-HCK",
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/aic.70286",
@@ -4584,7 +5000,11 @@
       "topics": [
         "BIO-HISO"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1098/rsos.250756",
@@ -4630,7 +5050,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsomega.5c10732",
@@ -4678,7 +5102,11 @@
         "HTL-HDN2",
         "BIO-PHOSPHIDE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 17,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ep.70317",
@@ -4720,7 +5148,11 @@
         "BIO-HISO",
         "BIO-PHOSPHIDE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsnano.5c19788",
@@ -4769,7 +5201,11 @@
       "topics": [
         "PHOTO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.59717/j.xinn-energy.2026.100130",
@@ -4816,7 +5252,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1039/d5su00803d",
@@ -4859,7 +5299,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1039/d6gc02407f",
@@ -4897,7 +5341,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1155/er/4175129",
@@ -4940,7 +5388,11 @@
       "topics": [
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1039/d5ra04810a",
@@ -4981,7 +5433,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1039/d5su00647c",
@@ -5026,7 +5482,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.9767/bcrec.20531",
@@ -5072,7 +5532,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal16010002",
@@ -5110,7 +5574,11 @@
       "topics": [
         "NTP-DBD"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1038/s41467-025-66858-7",
@@ -5157,7 +5625,11 @@
       "topics": [
         "PHOTO-DECARB"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1038/s41467-025-64645-y",
@@ -5207,7 +5679,11 @@
         "HTL-HDN",
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 15,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.53964/id.2025016",
@@ -5247,7 +5723,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.55905/cuadv17n10-122",
@@ -5290,7 +5770,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.joei.2025.102344",
@@ -5336,7 +5820,11 @@
       "topics": [
         "NTP-DBD"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s43621-025-01972-6",
@@ -5374,7 +5862,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/chemistry7050166",
@@ -5416,7 +5908,11 @@
       "topics": [
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/bbb.70057",
@@ -5453,7 +5949,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.18331/brj2025.12.3.3",
@@ -5498,7 +5998,11 @@
       "topics": [
         "ELECTRO-KOLBE"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/en18174568",
@@ -5543,7 +6047,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 11,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/catal15090806",
@@ -5581,7 +6089,11 @@
       "topics": [
         "HTL-HDN2"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 5,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1007/s11244-025-02160-6",
@@ -5628,7 +6140,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1016/j.rser.2025.116086",
@@ -5669,7 +6185,11 @@
       "topics": [
         "HTL-HDN"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/ese3.70214",
@@ -5711,7 +6231,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "背景候选",
+      "screening_score": 10,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/molecules30132862",
@@ -5762,7 +6286,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 8,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1002/cbh2.70018",
@@ -5810,7 +6338,11 @@
       "topics": [
         "BIO-HCK"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 12,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/molecules30102225",
@@ -5849,7 +6381,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 13,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.3390/pr13051581",
@@ -5892,7 +6428,11 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     },
     {
       "id": "doi:10.1021/acsengineeringau.4c00059",
@@ -5936,10 +6476,21 @@
       "topics": [
         "ELECTRO-ECH"
       ],
-      "curated": false
+      "curated": false,
+      "screening_tier": "扩展参考",
+      "screening_score": 7,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验"
     }
   ],
   "manual_curated_at": "2026-10-19T13:55:00Z",
   "manual_curated_count": 5,
-  "curation_source": "Academic publisher article pages, PubMed journal-index record, institutional bibliographic record; no campus-network access"
+  "curation_source": "Academic publisher article pages, PubMed journal-index record, institutional bibliographic record; no campus-network access",
+  "priority_recommendation_ids": [],
+  "screening_counts": {
+    "核心相关": 47,
+    "扩展参考": 74,
+    "背景候选": 8,
+    "可能不相关": 7
+  }
 }
