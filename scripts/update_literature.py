@@ -219,54 +219,91 @@ def enrich_chinese(papers):
 def run(max_topics=None):
     cfg=json.loads(TOPICS.read_text(encoding='utf-8'))
     raw=json.loads(DB.read_text(encoding='utf-8')) if DB.exists() else {'papers':[]}
-    prev={p['id']:p for p in raw.get('papers',[])}
+    current={p['id']:p for p in raw.get('papers',[]) if p.get('doi')}
+    archived_file=ROOT/'archive'/'2026-10-19'/'papers_full_backup.json'
+    archived=json.loads(archived_file.read_text(encoding='utf-8')) if archived_file.exists() else {'papers':[]}
+    archive_dois={normalize_doi(p.get('doi')) for p in archived.get('papers',[]) if p.get('doi')}
     now=dt.datetime.now(dt.timezone.utc)
-    last=raw.get('last_success','')
-    days=cfg['daily_lookback_days'] if last else cfg['first_run_lookback_days']
-    from_date=(now-dt.timedelta(days=days)).date().isoformat()
+    from_date=(now-dt.timedelta(days=cfg.get('daily_lookback_days',30))).date().isoformat()
+    if now.date().isoformat()< '2026-10-20':
+        print('Daily curated mode begins Oct 20, 2026; no changes')
+        return 0
     topics=cfg['topics'][:max_topics] if max_topics else cfg['topics']
-    n=cfg.get('max_per_topic_per_source',30)
+    max_items=cfg.get('max_per_topic_per_source',25)
     key=os.environ.get('OPENALEX_API_KEY','')
-    successes=[];errors=[];new_cnt=0;hits=0
+    results={}; sources=set(); errors=[];hits=0
     for topic in topics:
-        for name,fn in [('OpenAlex',lambda:openalex(topic['query'],from_date,n,key)),('Crossref',lambda:crossref(topic['query'],from_date,n))]:
+        for name,fn in [('OpenAlex',lambda:openalex(topic['query'],from_date,max_items,key)),
+                        ('Crossref',lambda:crossref(topic['query'],from_date,max_items))]:
             try:
-                batch=list(fn())
-                successes.append(name)
+                batch=list(fn());sources.add(name)
                 for p in batch:
                     hits+=1
-                    p['topics']=[topic['id']]
-                    if not p['directions']:p['directions']=[topic['direction']]
-                    if p['id'] not in prev:
-                        new_cnt+=1
-                        prev[p['id']]=p
-                    else:prev[p['id']]=merge(prev[p['id']],p)
+                    doi=normalize_doi(p.get('doi'))
+                    if not doi or doi in archive_dois or p.get('id') in current:
+                        continue
+                    if p['id'] in results:
+                        results[p['id']]=merge(results[p['id']],p)
+                    else:
+                        results[p['id']]=p
             except Exception as exc:
                 errors.append('{} / {}: {}'.format(name,topic['id'],str(exc)[:160]))
-            time.sleep(0.12)
-    if not successes:
-        print('All API sources failed; preserving last successful snapshot.',file=sys.stderr)
-        for err in errors:print(err,file=sys.stderr)
+            time.sleep(.12)
+    if not sources:
+        print('No API source available; keeping existing daily curated snapshot.',file=sys.stderr)
         return 2
-    # Backfill and re-assess older metadata without overwriting any manual notes.
-    for v in prev.values():
-        v.update({k:w for k,w in classify_scope(v.get('title',''),v.get('abstract','')).items() if k!='fulltext_status'})
-        v.setdefault('fulltext_status','全文待核验')
-    papers=sorted(prev.values(),key=lambda p:((p.get('date') or '0000'),(p.get('first_seen_at') or '')),reverse=True)
-    papers=papers[:cfg['max_stored_papers']]
-    translation_stats=enrich_chinese(papers)
-    raw.update({'schema_version':2,'last_attempt':utc_now(),'last_success':utc_now(),
-                'source_status':'success' if not errors else 'partial',
-                'success_sources':sorted(set(successes)), 'errors':errors[:30],
-                'translation_stats':translation_stats,
-                'query_window_start':from_date,'new_added_count':new_cnt,'hits_processed':hits,
-                'priority_recommendation_ids':[x['id'] for x in sorted((p for p in papers if p.get('screening_tier')=='核心相关' and p.get('first_seen_at','')[:10]==now.date().isoformat()),key=lambda x:(-x.get('screening_score',0),x.get('date','')))[:8]],
-                'screening_counts':{t:sum(p.get('screening_tier')==t for p in papers) for t in ('核心相关','扩展参考','背景候选','可能不相关')},'papers':papers})
-    DB.parent.mkdir(exist_ok=True,parents=True)
+    priority_journals=('nature communications','nature catalysis','acs catalysis','chemical engineering journal',
+                       'green chemistry','joule','energy & environmental science','applied catalysis b',
+                       'aiche journal','energy & fuels','bioresource technology','applied energy',
+                       'fuel processing technology','fuel')
+    fuel_titles=r'jet fuel|bio.?jet|aviation fuel|aviation biofuel|sustainable aviation'
+    catalyst_titles=r'cataly|hydrodeoxy|hydrodenitro|hydrocrack|hydrogenat|isomeri|plasma|photothermal'
+    substrate_titles=r'biomass|bio.?oil|biocrude|lignin|microalga|fatty acid|lipid|bio.?fuel'
+    noisy=r'photodegrad|antibiotic|parkinson|sewage sludge|biosensor|water treatment|organic pollutant'
+    candidates=[]
+    for p in results.values():
+        title=p.get('title','').lower()
+        meta=classify_scope(p.get('title'),p.get('abstract'))
+        journal=p.get('journal','').lower()
+        if re.search(noisy,title) or not re.search(catalyst_titles,title):
+            continue
+        if not re.search(substrate_titles,title) or not re.search(fuel_titles,title):
+            # Retain only a small number of outstanding indirect papers, never pure generic hydrogen studies.
+            if not (re.search(substrate_titles,title) and re.search(catalyst_titles,title)
+                    and any(j in journal for j in priority_journals[:8])):
+                continue
+        if meta['screening_tier'] not in ('核心相关','扩展参考'):
+            continue
+        if not (p.get('abstract') or p.get('doi')):
+            continue
+        journal_good=any(j in journal for j in priority_journals)
+        innovation=bool(re.search(r'single.atom|relay|tandem|interfac|spillover|bifunctional|core.shell|high.entropy|mesopor',title))
+        if not (journal_good or innovation):
+            continue
+        p.update(meta)
+        p.update({'curated':False,'screening_tier':'核心相关','evidence_status':'自动优选候选：仅题录/摘要核验，非全文已读',
+                  'fulltext_status':'全文待核验','date_not_today_notice':'今日优选收录不表示当天发表',
+                  'curated_added_at':now.date().isoformat(),
+                  'selection_reason':'高相关主题、学术出版源以及期刊/催化剂新颖性线索'})
+        p['priority_score']=int(p.get('screening_score',0))*3 + (22 if journal_good else 0) + (14 if innovation else 0)+ (7 if p.get('abstract') else 0)
+        candidates.append(p)
+    candidates.sort(key=lambda p:(p['priority_score'],p.get('date','')),reverse=True)
+    # No padding: fewer than five is acceptable; never invent articles.
+    picked=candidates[:max(0,10-len([p for p in current.values() if p.get('curated_added_at')==now.date().isoformat()]))]
+    for p in picked:current[p['id']]=p
+    papers=sorted(current.values(),key=lambda p:((p.get('curated_added_at') or ''),p.get('priority_score',0)),reverse=True)
+    papers=papers[:cfg.get('max_stored_papers',2500)]
+    raw.update({'schema_version':3,'last_attempt':utc_now(),'last_success':utc_now(),
+                'source_status':'success' if not errors else 'partial','success_sources':sorted(sources),
+                'errors':errors[:30],'query_window_start':from_date,'new_added_count':len(picked),
+                'hits_processed':hits,'archive_path':'archive/2026-10-19/papers_full_backup.json',
+                'priority_recommendation_ids':[p['id'] for p in papers if p.get('curated_added_at')==now.date().isoformat()][:10],
+                'papers':papers})
     tmp=DB.with_suffix('.json.tmp')
     tmp.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     tmp.replace(DB)
-    print('OK: stored={}, new={}, hits={}, queries_success={}, errors={}'.format(len(papers),new_cnt,hits,len(successes),len(errors)))
+    print('OK curated: today_add={}, current_library={}, candidates={}, queries_success={}, errors={}'.format(
+          len(picked),len(papers),len(candidates),len(sources),len(errors)))
     return 0
 
 if __name__=='__main__':
