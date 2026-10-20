@@ -297,6 +297,7 @@ def run(max_topics=None):
                 'source_status':'success' if not errors else 'partial','success_sources':sorted(sources),
                 'errors':errors[:30],'query_window_start':from_date,'new_added_count':len(picked),
                 'hits_processed':hits,'archive_path':'archive/2026-10-19/papers_full_backup.json',
+                'curation_date':now.date().isoformat(),
                 'priority_recommendation_ids':[p['id'] for p in papers if p.get('curated_added_at')==now.date().isoformat()][:10],
                 'papers':papers})
     tmp=DB.with_suffix('.json.tmp')
