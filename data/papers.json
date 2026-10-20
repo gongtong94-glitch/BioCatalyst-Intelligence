@@ -36,7 +36,7 @@
       "year": 2026,
       "doi": "10.1038/s41467-026-70996-x",
       "url": "https://doi.org/10.1038/s41467-026-70996-x",
-      "abstract": "",
+      "abstract": "The selective transformation of lignin into valuable products remains challenging due to its structural heterogeneity and tendency to undergo recondensation. Here we report a spatially engineered bifunctional core-shell catalyst, Ni@H-beta, featuring nanodispersed Ni species on the external shell of a zeolite containing Brønsted acid sites within the core. This architecture enables a relay catalytic process involving hydrogenation on the Ni-rich surface followed by acid-catalyzed deoxygenation within the microporous framework. Under optimized conditions, Ni@H-beta achieves complete liquefaction of enzymatic hydrolysis lignin without char formation, yielding 50.1 wt% monomers predominantly composed of jet-fuel-range cycloalkanes. Operando NMR spectroscopy combined with density functional theory reveals a hydrogenation-first pathway that reduces deoxygenation barriers and enhances selectivity. Integrated process simulation, techno-economic analysis and life-cycle assessment further indicate that the EHL-to-jet-fuel process is economically competitive and environmentally advantageous compared with conventional petroleum-derived jet fuel.",
       "abstract_zh": "研究针对木质素结构复杂、易缩合成焦的难题，制备了 Ni@H-beta 核壳金属–酸双功能催化剂。分散 Ni 位点分布于外部、Brønsted 酸位点位于分子筛内部，促进先加氢再脱氧的串联转化。最佳条件下酶解木质素完全液化、不产生焦炭，得到 50.1 wt% 单体，主要为航油范围环烷烃。原位 NMR 和理论计算表明，先加氢能够降低后续脱氧能垒。研究同时进行了过程与经济、环境评价。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "完全液化且无焦炭生成；单体收率 50.1 wt%，产物以航油范围环烷烃为主",
@@ -198,7 +198,163 @@
       "evidence_source": "https://www.nature.com/articles/s41467-026-70996-x",
       "fulltext_reviewed_at": "2026-10-20",
       "fulltext_access": "open_access_publisher_fulltext",
-      "review_provenance": "Open access publisher full text; individual fields have source section/figure and URL"
+      "review_provenance": "Open access publisher full text; individual fields have source section/figure and URL",
+      "abstract_source": "Europe PMC",
+      "fulltext_suggestions": {
+        "cat_name": {
+          "value": "…O2 supports using two methods. In the co-deposition–precipitation (DP) route, Ni@H-beta and NiDP/SiO2 were synthesized as follows: 2.4 g of support (H-beta or SiO2) was added to 300 mL deionized water containing 5.95 g of Ni(NO3)2·6H2O and 14.9 g of urea. …",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_active": {
+          "value": "…an aqueous solution of Ni(NO3)2 (1.16 g Ni(NO3)2, corresponding to 9.8 wt% Ni loading) was added dropwise to 2.4 g of H-beta or SiO2. The impregnated samples were dried at 110 °C (overnight), calcined at 450 °C for 4 h, and reduced under H2 at 500 °C for 4 h.",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_support": {
+          "value": "… determined by inductively coupled plasma mass spectrometry) were prepared on H-beta or SiO2 supports using two methods. In the co-deposition–precipitation (DP) route, Ni@H-beta and NiDP/SiO2 were synthesized as follows: 2.4 g of support (H-beta or SiO2) was …",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_synthesis": {
+          "value": "…. In the co-deposition–precipitation (DP) route, Ni@H-beta and NiDP/SiO2 were synthesized as follows: 2.4 g of support (H-beta or SiO2) was added to 300 mL deionized water containing 5.95 g of Ni(NO3)2·6H2O and 14.9 g of urea. The pH was adjusted to 2 with dilute …",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_size": {
+          "value": "…ion at 200 °C and 350 °C. d High-resolution transmission electron microscopy (HRTEM) images and corresponding energy-dispersive X-ray spectroscopy (EDS) elemental mapping of the Ni@H-beta catalyst. The elemental distributions of Ni and Si are shown separatel…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Results and discussion > Catalyst preparation and characterization",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_pore": {
+          "value": "…t a flow rate of 1 mL min⁻¹. The detection system included a UV detector (254 nm) and a refractive index (RI) detector. Calibration was carried out using polystyrene standards. Samples were prepared at a concentration of 2 mg mL⁻¹ and filtered through a 0…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Analysis of non-volatile EHL-derived fractions",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_site": {
+          "value": "…adsorption show characteristic bands at 1540 and 1450 cm−1, corresponding to (Brønsted and Lewis acid sites, respectively, and at 1490 cm−1 (combined Brønsted and Lewis sites)41, with measurements at 200 and 350 °C reflecting total and strong acidity, respectiv…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Results and discussion > Catalyst preparation and characterization",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "cat_cycles": {
+          "value": "…evaluated through sensitivity analysis across four process scenarios. A plant lifetime of 20 years and annual operating time of 7884 h were assumed. Minimum selling price (MSP) was calculated based on a net present value (NPV) of zero at the end of the project …",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Process simulation and evaluation methods",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_reactor": {
+          "value": "Reactions were carried out in a 100 ml batch reactor (Parr 4566, made of Hastelloy) equipped with a temperature controller (Parr 4848), a pressure sensor, a stirrer, a gas inlet and two gas outlet valves. Catalyst (0.25 g), pen…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Conversion of EHL",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_feed": {
+          "value": "…n, monomer yields are reported as carbon yield based on the carbon content of lignin. The total product yield from EHL depolymerization is expressed in wt% and was calculated using Eq. 1.",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Analysis of liquid products",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_catalyst": {
+          "value": "…of reaction conditions including H2 pressure, temperature, reaction time, and catalyst loading on monomer yield. e Schematic illustration of the proposed EHL depolymerization and conversion sequence in alkane solvent.",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Results and discussion > Catalytic activity and mechanistic studies",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_flow": {
+          "value": "…oratories) were used in series, with tetrahydrofuran (THF) as the eluent at a flow rate of 1 mL min⁻¹. The detection system included a UV detector (254 nm) and a refractive index (RI) detector. Calibration was carried out using polystyrene standards. Samples wer…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Analysis of non-volatile EHL-derived fractions",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_temp": {
+          "value": "…he pH was adjusted to 2 with dilute HNO3, and the mixture was stirred at room temperature for 30 min, then heated to 90 °C for 4 h to precipitate Ni onto the support. The resulting solids were collected by filtration, dried (110 °C, 12 h), calcined in air at 450 °…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_pressure": {
+          "value": "…566, made of Hastelloy) equipped with a temperature controller (Parr 4848), a pressure sensor, a stirrer, a gas inlet and two gas outlet valves. Catalyst (0.25 g), pentane (50 mL), and EHL (0.5 g) were sequentially loaded into the reactor. After sealing and pur…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Conversion of EHL",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_mode": {
+          "value": "…4.9 g of urea. The pH was adjusted to 2 with dilute HNO3, and the mixture was stirred at room temperature for 30 min, then heated to 90 °C for 4 h to precipitate Ni onto the support. The resulting solids were collected by filtration, dried (110 °C, 12 h), calc…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "rx_time": {
+          "value": "… mixture was stirred at room temperature for 30 min, then heated to 90 °C for 4 h to precipitate Ni onto the support. The resulting solids were collected by filtration, dried (110 °C, 12 h), calcined in air at 450 °C for 4 h, and reduced under a flow of H2…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Catalyst synthesis",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "out_oil": {
+          "value": "…rocarbons containing only carbon and hydrogen, monomer yields are reported as carbon yield based on the carbon content of lignin. The total product yield from EHL depolymerization is expressed in wt% and was calculated using Eq. 1.",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Analysis of liquid products",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        },
+        "out_jet": {
+          "value": "…assume near-complete recovery of hydrogen and solvent, and uncondensed gases (C1–C2, excess H2) and lignin residues are routed to a 900 °C combustion chamber for heat integration. The model was normalized to 2000 kg EHL per batch and outputs full mass and en…",
+          "source": "https://europepmc.org/articles/PMC13323387",
+          "locator": "Methods > Process simulation and evaluation methods",
+          "evidence_type": "auto_extracted_open_fulltext",
+          "reviewed": false,
+          "disclaimer": "Candidate text, not verified experimental value"
+        }
+      },
+      "oa_fulltext": {
+        "status": "automatic_candidates_waiting_review",
+        "type": "europepmc_jats_xml",
+        "url": "https://europepmc.org/articles/PMC13323387",
+        "downloaded_at": "2026-10-20T10:53:59Z",
+        "sections_parsed": 58,
+        "fields_suggested": 18,
+        "data_scope": "open-access body only; SI not included"
+      }
     },
     {
       "id": "doi:10.1039/d5gc05950j",
@@ -215,7 +371,7 @@
       "year": 2025,
       "doi": "10.1039/d5gc05950j",
       "url": "https://doi.org/10.1039/D5GC05950J",
-      "abstract": "",
+      "abstract": "A two-step strategy of pre-arylation and hydrodeoxygenation enables the conversion of native lignin into jet fuel-range bicyclic alkanes.",
       "abstract_zh": "针对木质素基本结构碳数较低且易发生自缩合的问题，提出预芳基化与加氢脱氧组合路线。预芳基化有助于抑制木质素处理过程中的缩合副反应，并将最终产物导向 C12–C15 双环烷烃。以山毛榉木木质素为例，Pd/C 催化 HDO 后双环烷烃收率达到 39.9 wt%。方法进一步用于阔叶木、针叶木及草本木质素，多数情况下收率超过 20 wt%。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "山毛榉木木质素双环烷烃收率最高 39.9 wt%，多数其他木质素原料超过 20 wt%",
@@ -259,7 +415,19 @@
       "relevance": 10,
       "priority_score": 99,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "abstract_source": "OpenAlex inverted abstract",
+      "oa_url": "",
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-20T10:53:59Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
     },
     {
       "id": "doi:10.1021/acscatal.5c07118",
@@ -274,7 +442,7 @@
       "year": 2026,
       "doi": "10.1021/acscatal.5c07118",
       "url": "https://doi.org/10.1021/acscatal.5c07118",
-      "abstract": "",
+      "abstract": "Single-atom catalysts (SACs) with explicit active sites have shown advantages in heterogeneous catalytic reactions; however, the optimization of their performance in multistep tandem reactions [e.g., hydrodeoxygenation-isomerization (HIS) reaction in biomass conversion] remains a formidable challenge. Herein, we report a metal–acid bifunctional catalyst that is featured with Ni single atoms immobilized into the montmorillonite (MMT) framework via isomorphous substitution, followed by surface acid modification. The optimized 0.4 wt % Ni/MMT-IA catalyst exhibits prominent catalytic performance toward one-pot HIS reaction of palmitic acid with an iso -alkanes yield of 80.3%, which is preponderant to the state-of-the-art catalysts. Furthermore, the obtained catalyst not only displays durability for 30 reaction cycles (240 h, 300 °C), but also demonstrates universality in HIS reactions of 10 bio-oils. By virtue of in situ spectroscopy characterizations and theoretical calculations, we substantiate a two-step consecutive reaction pathway, including *COOH hydrodeoxygenation and *COH hydroisomerization. The single-atom metal–Brønsted acid site (Ni δ+ -O(H)) serves as the intrinsic active center, which significantly promotes the rate-determining step (β-H scission of the carbonium ion intermediate), resulting in the extraordinarily high yield of iso -alkanes. This work provides a feasible method for the design and preparation of high-performance SACs, which shows prospective applications in biofuel synthesis.",
       "abstract_zh": "研究通过同晶置换将 Ni 单原子固定在蒙脱石骨架中，并实施表面酸性改性，构建金属–酸双功能位点。优化后的 0.4 wt% Ni/MMT-IA 对棕榈酸进行一步加氢脱氧–异构化，支链烷烃收率达 80.3%。催化剂在 300 ℃ 下完成 30 次循环（240 h），并针对 10 种生物油验证适用性。原位表征与计算指出 Niδ+–O(H) 位点有助于促进关键异构化步骤。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "支链烷烃收率 80.3%；300 ℃ 下 30 次循环，累计 240 h",
@@ -318,7 +486,19 @@
       "relevance": 10,
       "priority_score": 98,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "abstract_source": "OpenAlex inverted abstract",
+      "oa_url": "",
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-20T10:54:00Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
     },
     {
       "id": "doi:10.1021/acscatal.6c03942",
@@ -335,7 +515,7 @@
       "year": 2026,
       "doi": "10.1021/acscatal.6c03942",
       "url": "https://doi.org/10.1021/acscatal.6c03942",
-      "abstract": "",
+      "abstract": "Abstract Elucidating the role of hydrogen spillover in regulating the active sites of metal-acid catalysts is essential to enable selective lignin hydrodeoxygenation toward aviation biofuels. Herein, we developed a MoO3/Co@CoO catalyst that enables efficient hydrodeoxygenation of lignin and its derivatives into aviation biofuels. The catalyst achieved nearly complete conversion of monomeric phenolic derivatives with ∼99% selectivity toward aviation-range hydrocarbons, while lignin afforded 16.3 wt % liquid hydrocarbons with 53.2% selectivity to aviation-range hydrocarbons under mild conditions. Structural analyses confirmed the formation of a Co@CoO core−shell architecture and Co−O−Mo interfacial bonding. Combined experimental and DFT studies revealed that Co0 sites facilitate H2 dissociation, whereas the Co−O−Mo interface enables accelerated hydrogen spillover from Co to Mo species, generating Brønsted acid sites (Mo−OH) and driving the selective formation of aviation biofuel components. This work offers fundamental insights into rationally controlling hydrogen spillover via interface engineering in metal-acid catalysts for lignin hydrodeoxygenation.",
       "abstract_zh": "研究通过 MoO₃/Co@CoO 催化剂调控金属–氧化物界面氢溢流，以促进木质素及其酚类衍生物加氢脱氧。单体酚类近乎完全转化，航油范围烃选择性约 99%；真实木质素产生 16.3 wt% 液态烃，其中航油范围烃选择性为 53.2%。结构表征证实 Co@CoO 核壳结构及 Co–O–Mo 界面键合，机理研究显示 Co⁰ 负责 H₂ 活化，界面向 Mo 物种传递氢并产生酸性位点。模型物与真实木质素的结果不可混用。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "酚类模型物近完全转化、航油范围烃选择性约 99%；木质素生成 16.3 wt% 液态烃，其中航油范围烃选择性 53.2%",
@@ -379,7 +559,19 @@
       "relevance": 10,
       "priority_score": 97,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "abstract_source": "OpenAlex inverted abstract",
+      "oa_url": "",
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-20T10:54:00Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
     },
     {
       "id": "doi:10.1016/j.cej.2025.161494",
@@ -396,7 +588,7 @@
       "year": 2025,
       "doi": "10.1016/j.cej.2025.161494",
       "url": "https://doi.org/10.1016/j.cej.2025.161494",
-      "abstract": "",
+      "abstract": "• Biomass-derivable cyclohexanone as a feedstock for high-density aviation fuel. • NbOPO 4 catalyst exhibited excellent activity for aldol condensation and alkylation. • Ni/NbOPO 4 catalyst exhibited superior hydrogenation of adducts than Pd/Al 2 O 3. • Similar results from one-pot and two-pot aldol-condensation followed hydrogenation. • Liquid compositions linked to types of coke/char deposits observed on catalyst. Climate change is the main driver for sustainable aviation fuels production as a means of decarbonising/defossilising the sector. In this work, several catalysts have been screened to produce aviation fuel (C 6 -C 16 ) component hydrocarbons from cyclohexanone, a model compound of lignin-derived bio-oils. Using a two-stage two-pot approach, up to 99 % cyclohexanone conversion was achieved in the presence of hydrogen gas. In the first stage, catalytic activities of NbOPO 4 , Al 2 O 3 , SiO 2 , and ZrO 2 -SiO 2 to promote aldol condensation were tested at 160 °C for 3 h. The NbOPO 4 exhibited the highest selectivity towards C-C coupling adducts with mainly C 12 to C 18 . In the second stage, 30 wt% Ni catalysts on three different supports and 5 wt% Pd/Al 2 O 3 were used to catalyse the hydrogenation of the first-stage adducts at 300 °C for 3 h. The 30 wt%Ni/NbOPO 4 was most effective, promoting the formation of bi-cycloalkanes, alkyl aromatic, and partially hydrogenated polyaromatic hydrocarbons. In comparison, a one-pot two-step approach was tested by sequentially reacting cyclohexanone with hydrogen gas over the two temperatures for 3 h each, using 30 wt%Ni/NbOPO 4 as catalyst. Reacting cyclohexanone with 10 wt% bio-oil samples led to significantly reduced first stage conversion, and enhanced yields of single C-C coupled oxygenates and almost no hydrocarbons in the second stage. Overall, combination of catalysts and hydrogen gas over staged reactions has effectively converted pure cyclohexanone into naphthene-rich liquid hydrocarbons and cyclohexanone/bio-oil mixed feedstocks into their oxygenated precursors. These results support potential targeted production of bio-derived sustainable alternative fuels for the defossilisation of aviation industry",
       "abstract_zh": "研究将木质素衍生生物油模型物环己酮用作航油碳骨架构建原料，首先通过醛醇缩合和烷基化延长碳链，再使用加氢脱氧催化剂转化含氧中间体。研究筛选了不同催化剂，指出 NbOPO₄ 在缩合与烷基化步骤具有良好活性，Ni/NbOPO₄ 对加氢步骤的作用优于比较的 Pd/Al₂O₃ 催化剂，并讨论一锅和分步反应及积炭行为。该研究属于模型化合物路线，不能直接视作复杂真实油性能。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "评价 C6–C16 航油范围烃路线；具体收率须核对全文表格",
@@ -440,7 +632,19 @@
       "relevance": 10,
       "priority_score": 96,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "abstract_source": "OpenAlex inverted abstract",
+      "oa_url": "https://doi.org/10.1016/j.cej.2025.161494",
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-20T10:54:01Z",
+        "url": "https://doi.org/10.1016/j.cej.2025.161494",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
     },
     {
       "id": "doi:10.1002/aic.70353",
@@ -456,7 +660,7 @@
       "year": 2026,
       "doi": "10.1002/aic.70353",
       "url": "https://doi.org/10.1002/aic.70353",
-      "abstract": "",
+      "abstract": "Abstract Hydrodeoxygenation (HDO) of lignocellulosic derivatives to bio‐aviation fuel remains challenging due to the demand for precise control over metal–acid bifunctionality. Herein, we report a hierarchical Ni/HZSM‐5 catalyst (Ni/HZ5‐0.4‐EG) engineered via ethylene glycol‐assisted impregnation, which achieves spatial confinement of highly dispersed Ni nanoparticles within mesopores. This unique architecture establishes proximity between metallic Ni and acid sites, enabling efficient cascade conversion of biomass derivatives into C 8 C 16 alkanes. The catalyst delivers 73.2% alkane yield with an iso/ n ratio of 3.6, and the product exhibits low freezing point (≤60°C) and favorable density (0.79 g mL −1 ), meeting key specifications for bio‐aviation fuel. Characterizations reveal that the mesoporous confinement and metal‐support interactions synergistically stabilize Ni nanoparticles against sintering and coke formation, endowing the catalyst with robust durability over five consecutive cycles. This work demonstrates a strategy for designing metal–acid catalysts with tailored nanoscale architectures and provides mechanistic insights into active site modulation for complex HDO reactions.",
       "abstract_zh": "研究利用乙二醇辅助浸渍制备层级孔 Ni/HZSM-5 催化剂，使高分散 Ni 纳米颗粒锚定在介孔内，改善金属位点和酸位点的空间邻近性。优化催化剂 Ni/HZ5-0.4-EG 促进木质纤维素含氧衍生物级联转化为 C8–C16 烷烃，烷烃收率达 73.2%，异构与正构烷烃比为 3.6。研究强调孔道扩散和金属–酸双功能协同在生物航油催化剂设计中的作用。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "C8–C16 烷烃收率 73.2%，异/正构比 3.6",
@@ -501,7 +705,19 @@
       "relevance": 10,
       "priority_score": 95,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "abstract_source": "OpenAlex inverted abstract",
+      "oa_url": "",
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-20T10:54:02Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
     },
     {
       "id": "doi:10.1021/acs.energyfuels.6c00633",
@@ -517,7 +733,7 @@
       "year": 2026,
       "doi": "10.1021/acs.energyfuels.6c00633",
       "url": "https://doi.org/10.1021/acs.energyfuels.6c00633",
-      "abstract": "",
+      "abstract": "The growing demand for sustainable aviation fuel (SAF) makes extending the carbon chain from ethanol a strategy well worth pursuing. Herein, a series of Ni/MgO@C catalysts derived from Ni/Mg bimetallic metal–organic frameworks (MOFs) was evaluated for the Guerbet coupling of ethanol to higher alcohols within the alcohol-to-jet (ATJ) strategy. Owing to the isolated metal nodes in the periodic framework, highly dispersed Ni species on the magnesium-based solid supports with abundant basic sites have been accessed. The catalyst with a Ni/Mg molar ratio of 0.13 achieved a higher alcohol yield of 55.5% at 88.4% ethanol conversion under 2 MPa N 2 at 240 °C for 10 h. Upon extending the reaction to 24 h, C8–C16+ alcohols accounted for 41.4% of the alcohol product pool. Comprehensive catalyst characterization combined with theoretical calculations revealed that the involvement of Ni species can accelerate the dehydrogenation step, while an appropriate Ni δ+ /Ni 0 ratio can be critical for efficient carbon chain elongation by promoting alcohol dehydrogenation to aldehyde and simultaneously suppressing their deep decomposition through weakened interaction with the catalyst surface.",
       "abstract_zh": "研究以 Ni/Mg 双金属金属有机框架为前驱体制备 Ni/MgO@C 催化剂，用于醇制航油路线中乙醇的 Guerbet 偶联。MOF 框架的金属节点使 Ni 物种在含有丰富碱性位点的 Mg 基载体上高度分散，从而促进乙醇向较高碳数醇的转化。该研究是 ATJ 前驱体合成，不是直接对 HTL 生物原油开展加氢脱氧。",
       "abstract_zh_type": "中文学术导读（根据期刊公开摘要人工归纳，不是逐句译文）",
       "key_performance": "促进 Guerbet 偶联生成高碳醇；具体转化率及产率须核对全文",
@@ -561,7 +777,19 @@
       "relevance": 10,
       "priority_score": 94,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "abstract_source": "OpenAlex inverted abstract",
+      "oa_url": "",
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-20T10:54:02Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
     }
   ],
   "sample_fulltext_review": {
@@ -570,5 +798,14 @@
     "at": "2026-10-20",
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
+  },
+  "fulltext_last_attempt": "2026-10-20T10:54:02Z",
+  "fulltext_batch_stats": {
+    "xml_ok": 1,
+    "pdf_ok": 0,
+    "metadata_only": 6,
+    "skipped_no_doi": 0,
+    "skipped_recent": 0,
+    "errors": 0
   }
 }
