@@ -47,7 +47,29 @@
         "原料与来源": "酶解木质素（真实生物质大分子）",
         "催化剂体系": "Ni@H-beta 核壳双功能催化剂",
         "关键性能": "完全液化且无焦炭生成；单体收率 50.1 wt%，产物以航油范围环烷烃为主",
-        "创新点": "Ni 表面加氢与分子筛孔道酸性脱氧接力；原位 NMR 和 DFT 支持机理"
+        "创新点": "Ni 表面加氢与分子筛孔道酸性脱氧接力；原位 NMR 和 DFT 支持机理",
+        "cat_name": "Ni@H-beta：H-beta 分子筛内核、Ni 富集外壳的双功能催化剂",
+        "cat_type": "金属–酸双功能核壳催化剂（金属Ni加氢 + 分子筛酸性脱氧）",
+        "cat_active": "Ni 9.8 wt%，由 ICP-MS 测定；还原后 Ni⁰ 为主要金属物种",
+        "cat_support": "H-beta（BEA 拓扑）分子筛，Brønsted 酸性位点位于内核",
+        "cat_synthesis": "共沉积–沉淀法：2.4 g H-beta 加入含 5.95 g Ni(NO₃)₂·6H₂O、14.9 g 尿素的 300 mL 去离子水；pH 调为2；室温搅拌30 min，90 ℃反应4 h；过滤后110 ℃干燥12 h、空气中450 ℃焙烧4 h，随后H₂气氛500 ℃还原4 h。具体气体流速请查补充材料。",
+        "cat_size": "Ni 纳米颗粒约 1–3 nm（HRTEM）；新鲜样品平均粒径 2.6 ± 0.9 nm，第5次循环后 4.7 ± 1.3 nm",
+        "cat_site": "Ni 富集外表面负责加氢稳定中间体；H-beta 内部 Brønsted 酸位点进一步脱氧，形成空间分隔的串联催化过程",
+        "cat_cycles": "再生后开展至8次循环；前4次活性保持较好，第5次略下降，第8次未出现进一步明显下降；每次回收后均焙烧和氢还原，不等同于未再生连续运行寿命",
+        "rx_reactor": "100 mL Hastelloy Parr 4566 间歇式搅拌反应釜；实际实验并非连续流反应器",
+        "rx_feed": "酶解木质素 EHL（纤维素乙醇生产的木质素富集残渣），非 HTL 生物原油；采用正戊烷作为溶剂/萃取与传热介质",
+        "rx_catalyst": "Fig. 3 基准条件催化剂 0.25 g、EHL 0.5 g、正戊烷 50 mL；优化实验提高催化剂至 0.5 g 时单体碳收率升高",
+        "rx_flow": "间歇式操作，无持续原料流速；搅拌 500 rpm",
+        "rx_temp": "Fig. 3 基准条件 320 ℃；温度实验考察 260–320 ℃",
+        "rx_pressure": "H₂ 初始充压 3 MPa（Fig. 3 基准条件）；压力筛选 1–4 MPa；注意不是恒压供氢",
+        "rx_mode": "间歇式反应；封釜前氮气置换6次、氢气置换3次；不涉及等离子体功率输入",
+        "rx_time": "Fig. 3 条件 6 h；研究了时间效应，作者称约6 h达到该系列最高单体收率",
+        "out_oil": "最佳条件下作者报告单体收率 50.1 wt%，但 Methods Eq.(1)采用 EHL 含碳质量为分母；不能直接写成“原料质量基准的油相收率”",
+        "out_jet": "产物以航油范围环烷烃为主；论文报告最优条件 50.1 wt% 单体收率，但没有单独报出 ASTM 航油规格合格率或 C12–C20 质量占比",
+        "out_hdo": "Ni@H-beta 条件下检测油品中未检出酚类化合物；这是检测范围内深度脱氧的证据，不能据此编造数值 HDO=100%",
+        "out_phys": "论文报告液体产物热值约 68.7 MJ/kg，系按 Dulong 公式估算；数值偏高，需要自行核对计算式和单位，不宜直接视作实测 HHV",
+        "out_hydrogen": "气体分析报告 CH₄ 约 29.9 wt%、C₂H₆ 约 2.6 wt%；具体分母与气相产率需结合图表/补充信息再核实",
+        "out_novel": "外层 Ni 纳米颗粒先加氢、内核 H-beta 酸位点后脱氧的空间分隔串联催化；原位 NMR 与 DFT 支持机理"
       },
       "directions": [
         "热催化"
@@ -69,7 +91,7 @@
       ],
       "evidence_status": "期刊公开摘要已核验；全文实验参数待核验",
       "screening_tier": "核心相关",
-      "fulltext_status": "全文待核验",
+      "fulltext_status": "正文已核验（SI部分待核验）",
       "curated": true,
       "reading_quality": "selected_research_paper",
       "first_seen_at": "2026-10-20T00:00:00Z",
@@ -81,7 +103,102 @@
       "relevance": 10,
       "priority_score": 100,
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
-      "date_not_today_notice": "今日优选收录，不代表论文今天发表"
+      "date_not_today_notice": "今日优选收录，不代表论文今天发表",
+      "fact_sources": {
+        "cat_name": {
+          "section": "Results → Catalyst preparation and characterization; Figs. 1–2",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_type": {
+          "section": "Abstract; Results → Catalyst preparation",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_active": {
+          "section": "Methods → Catalyst synthesis; Results → Catalyst preparation",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_support": {
+          "section": "Results → Catalyst preparation; Figs. 1–2",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_synthesis": {
+          "section": "Methods → Catalyst synthesis",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_size": {
+          "section": "Results → Catalyst preparation; Recycling, Figs. 1 and S10",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_site": {
+          "section": "Abstract; Results → Mechanistic studies; Fig. 4",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "cat_cycles": {
+          "section": "Results → Catalyst activity and mechanistic studies; Figs. S9–S11, Table S8",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_reactor": {
+          "section": "Methods → Conversion of EHL",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_feed": {
+          "section": "Introduction; Methods → Conversion of EHL",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_catalyst": {
+          "section": "Fig. 3 caption and Results → Reaction optimization",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_flow": {
+          "section": "Methods → Conversion of EHL",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_temp": {
+          "section": "Fig. 3 caption; Results → temperature optimization",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_pressure": {
+          "section": "Fig. 3 caption; Results → pressure optimization",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_mode": {
+          "section": "Methods → Conversion of EHL",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "rx_time": {
+          "section": "Fig. 3 caption; Results → reaction time optimization",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "out_oil": {
+          "section": "Abstract, Conclusions; Methods Eq. (1); Results → Fig. 3d",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "out_jet": {
+          "section": "Abstract and Results → product distributions; Fig. 3",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "out_hdo": {
+          "section": "Results → Catalyst comparison and Fig. 3",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "out_phys": {
+          "section": "Results → Fig. 3b; Methods → Dulong equation (Eq. 2)",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "out_hydrogen": {
+          "section": "Results → Gas analysis; Figure S8",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        },
+        "out_novel": {
+          "section": "Results → mechanistic studies; Fig. 4; Abstract",
+          "url": "https://www.nature.com/articles/s41467-026-70996-x"
+        }
+      },
+      "facts_source": "Nature Communications (2026), 已阅读开放获取正文（Methods、Results、Figs. 1–4），但部分补充材料表格仍待核验",
+      "evidence_source": "https://www.nature.com/articles/s41467-026-70996-x",
+      "fulltext_reviewed_at": "2026-10-20",
+      "fulltext_access": "open_access_publisher_fulltext",
+      "review_provenance": "Open access publisher full text; individual fields have source section/figure and URL"
     },
     {
       "id": "doi:10.1039/d5gc05950j",
@@ -446,5 +563,12 @@
       "selection_reason": "与生物质/生物油制航油的催化剂设计直接相关，具有原始学术文献支撑",
       "date_not_today_notice": "今日优选收录，不代表论文今天发表"
     }
-  ]
+  ],
+  "sample_fulltext_review": {
+    "doi": "10.1038/s41467-026-70996-x",
+    "fields_added": 22,
+    "at": "2026-10-20",
+    "source": "https://www.nature.com/articles/s41467-026-70996-x",
+    "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
+  }
 }
