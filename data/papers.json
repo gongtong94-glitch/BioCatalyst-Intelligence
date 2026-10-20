@@ -483,7 +483,25 @@
       "screening_tier": "扩展参考",
       "screening_score": 7,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "木质素衍生芳烃电化学加氢过程中：金属依赖的甲氧基保留与断裂路径控制",
+      "abstract_zh": "木质素衍生芳烃的电化学加氢为生物质提质提供了途径，但如何控制甲氧基保留或断裂仍存在困难。本文在相同条件下比较负载于碳载体上的Rh、Pt、Ru和Pd催化剂对愈创木酚的转化。Rh/C与Pt/C活性最高，但反应路径明显不同：Rh/C倾向于保留甲氧基的芳环加氢，Pt/C优先形成去甲氧基产物。时间分辨实验、中间体进料和初速率分析表明，选择性差别主要在早期路径分叉形成。Rh/C上甲氧基保留和去除的表观活化自由能分别为91.1和91.8 kJ/mol；Pt/C上分别为91.1和89.2 kJ/mol。模型表面计算显示，金属与吸附愈创木酚的相互作用可能造成不同的键活化路径。Rh/Pt选择性差异在测试电位、温度范围及其他木质素衍生芳烃上也有体现。研究揭示了电催化中通过金属选择调节官能团保留和脱氧反应路径的机制。",
+      "translation_source": "依据 ACS Catalysis 公开摘要的中文人工翻译",
+      "evidence_source": "https://doi.org/10.1021/acscatal.6c04829",
+      "facts_source": "期刊公开摘要（电解质/电位具体值待全文核验）",
+      "abstract_facts": {
+        "cat_name": "Rh/C、Pt/C、Ru/C、Pd/C",
+        "cat_type": "负载型贵金属电催化体系",
+        "cat_active": "Rh、Pt、Ru、Pd；摘要未报告各金属质量负载量",
+        "cat_support": "C（碳载体）",
+        "cat_site": "Rh/C偏向保留甲氧基的环加氢；Pt/C偏向去甲氧基路径",
+        "rx_feed": "愈创木酚与另外四种木质素衍生芳香族模型化合物",
+        "rx_mode": "电化学加氢，比较多种金属表面对甲氧基路径的调控",
+        "out_novel": "以时间分辨实验/中间体进料/初速率和表面计算联系金属种类与早期反应路径分叉",
+        "out_phys": "表观活化自由能：Rh/C保留与断裂甲氧基分别91.1/91.8 kJ/mol；Pt/C分别91.1/89.2 kJ/mol（并非燃料物性）"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "doi": "10.1016/j.fuel.2026.138948",
@@ -2620,7 +2638,20 @@
       "screening_tier": "核心相关",
       "screening_score": 16,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "藻类生物原油提质和绿色氢耦合制备可持续航空燃油的研究进展：综合综述",
+      "abstract_zh": "随着可持续航空燃油需求增长，藻类通过水热液化制得的生物原油因微藻生产率较高、原料适应性强且对粮食资源竞争较小，被视为具有潜力的路线。本文从全价值链角度，将可再生氢供应、燃料提质性能与技术经济分析及生命周期评价假设联系起来，综述藻类培养、水热液化、催化提质及氢辅助加氢加工的进展。重点讨论绿色氢如何与加氢处理结合以提高脱氧、脱氮效率和油品质量，以及藻类至SAF路线的技术经济和生命周期表现。文章还讨论藻类生物炼制过程中现场制氢的可能性，以提高流程效率和供应链韧性。综述为微藻HTL生物原油与绿氢耦合制备SAF提供系统路线比较，但不是报告某一新催化剂收率的实验论文。",
+      "translation_source": "依据 Springer 公开摘要的中文人工翻译",
+      "evidence_source": "https://doi.org/10.1007/s13399-026-07246-z",
+      "facts_source": "期刊公开摘要（综述，不能作为单一催化剂的实验数据）",
+      "abstract_facts": {
+        "rx_feed": "藻类水热液化生物原油；综述涵盖不同微藻原料与工艺",
+        "cat_name": "比较不同加氢处理、HDO与HDN催化剂，非单一新催化剂",
+        "rx_mode": "综述藻类HTL—绿氢供应—加氢提质—SAF及TEA/LCA耦合",
+        "out_novel": "将绿色氢、脱氧脱氮、供应链与LCA/TEA放在统一系统边界讨论"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.1016/j.biombioe.2026.110041",
@@ -3987,7 +4018,27 @@
       "screening_tier": "核心相关",
       "screening_score": 13,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "介孔载体负载镍催化剂催化异佛尔酮加氢脱氧制备可再生航空燃油添加组分",
+      "abstract_zh": "本文提出利用异佛尔酮这一生物质衍生平台分子制备可再生航空燃油组分。异佛尔酮可由生物源丙酮经羟醛缩合获得，并可进一步转化为适用于航空燃油配方的环烷烃和芳烃。研究采用兼具金属加氢功能与酸性载体脱水功能的双功能催化剂。Ni分别负载于Al₂O₃、TiO₂、ZrO₂、SBA-15、Al-SBA-15及Al-MCM-41上，通过湿法浸渍制备，在150–250 °C、35 bar氢气的间歇高压釜中评价。研究发现，载体酸性显著决定产物分布：Al-SBA-15、Al-MCM-41较强的Brønsted酸位促进烃类生成，却也促成重质组分生成，导致吸附与堵孔失活；以中等强度Lewis酸位为主的Al₂O₃载体初始活性较低，但稳定性较好。结果表明催化剂设计必须兼顾金属功能、酸性强度及稳定性。",
+      "translation_source": "依据 ACS Energy & Fuels 公开摘要的中文人工翻译",
+      "evidence_source": "https://doi.org/10.1021/acs.energyfuels.6c01673",
+      "facts_source": "期刊公开摘要（实验明细待全文核验）",
+      "abstract_facts": {
+        "cat_name": "Ni/Al₂O₃、Ni/TiO₂、Ni/ZrO₂、Ni/SBA-15、Ni/Al-SBA-15、Ni/Al-MCM-41",
+        "cat_type": "双功能金属–酸催化剂",
+        "cat_active": "Ni（金属负载量摘要未报告）",
+        "cat_support": "Al₂O₃、TiO₂、ZrO₂、SBA-15、Al-SBA-15、Al-MCM-41",
+        "cat_synthesis": "湿法浸渍制备",
+        "cat_site": "Ni金属加氢位；载体Brønsted/Lewis酸位负责脱水；酸性过强可能堵孔失活",
+        "rx_reactor": "间歇式高压反应釜",
+        "rx_feed": "异佛尔酮：可由生物源丙酮经羟醛缩合得到的模型平台分子；并非真实复杂生物油",
+        "rx_temp": "150–250 °C",
+        "rx_pressure": "35 bar H₂（约3.5 MPa氢气压力）",
+        "out_novel": "通过多种介孔载体的酸性差异研究金属–酸耦合、烃类收率与失活稳定性权衡"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.3390/pr14121973",
@@ -4353,7 +4404,27 @@
       "screening_tier": "核心相关",
       "screening_score": 13,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "改性β分子筛负载NiGa和NiGaCe催化剂，将棕榈油生物柴油加氢转化为生物航空燃油",
+      "abstract_zh": "为将含氧脂质原料转化为符合航空燃油性能要求的烃类，本文制备了改性β分子筛负载NiGa、NiGaCe等催化剂，研究棕榈油来源生物柴油的加氢转化。Ga的加入改善Ni分散并缩小Ni颗粒尺寸；Ce进一步调整Ni电子态、提高氢气消耗并引入Brønsted酸位。中心条件下，5Ni5Ga/m-beta的液体生物燃料收率最高，为75.9 wt%，其中航油范围烃收率为35.1 wt%，异构烷烃与正构烷烃比为1.14。反应温度和WHSV对脱氧及产物分布影响明显；更高温度和更低WHSV可提高航油馏分，但也可能产生不希望的芳构化。适量Ce加入5Ni5Ga/m-beta后有利于脱氧并增加异构烷烃选择性。使用5Ni5Ga-5Ce/m-beta获得的液体生物燃料与Jet A-1按90:10（体积比）混合，所得混合燃料热值与Jet A-1接近（43.0 MJ/kg），冰点为−54.9 °C。",
+      "translation_source": "依据 ACS Omega 公开摘要的中文人工翻译",
+      "evidence_source": "https://doi.org/10.1021/acsomega.6c01264",
+      "facts_source": "期刊公开摘要（未核验全部实验参数表）",
+      "abstract_facts": {
+        "cat_name": "5Ni5Ga/m-beta、5Ni5Ga-5Ce/m-beta",
+        "cat_type": "NiGa双金属/稀土Ce助剂改性分子筛双功能催化剂",
+        "cat_active": "Ni、Ga、Ce；样品名5Ni5Ga指配方标号，具体元素负载量基准需查正文",
+        "cat_support": "改性β分子筛（m-beta）",
+        "cat_site": "Ga有利于Ni分散；Ce调整Ni电子态、Brønsted酸性及异构化路径",
+        "rx_feed": "棕榈油来源生物柴油，不是微藻水热液化生物原油",
+        "rx_mode": "加氢脱氧/异构化/裂化及竞争芳构化",
+        "out_oil": "5Ni5Ga/m-beta液体生物燃料收率75.9 wt%（论文中心条件）",
+        "out_jet": "航油范围烃收率35.1 wt%；异/正构烷烃比1.14（同一催化剂中心条件）",
+        "out_phys": "5Ni5Ga-5Ce/m-beta产物与Jet A-1按90/10体积比掺混，热值约43.0 MJ/kg，冰点−54.9 °C；这是掺混性能而非纯产物认证",
+        "out_novel": "Ga促进Ni分散，Ce调节电子态和酸性，协同调控脱氧、异构化与芳构化竞争"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.3390/materproc2026031026",
@@ -4683,7 +4754,24 @@
       "screening_tier": "核心相关",
       "screening_score": 16,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "微藻来源生物油的催化提质及其用于可持续航空燃油的潜力",
+      "abstract_zh": "为寻找减少化石燃料依赖和温室气体排放的替代方案，微藻因生长迅速、含脂较高且可在污水中培养而受到关注。本研究考察小球藻（C. vulgaris）、斜生栅藻（T. obliquus）及生活污水培养混合藻制得的生物原油加氢提质，使用硫化CoMo/Al₂O₃（sCoMo）及Pt/Al₂O₃催化剂。与无催化反应相比，加氢提质改善了油品质量。相较Pt催化剂，sCoMo获得更高提质油收率、更多碳氢富集和更高高位热值，并有利于脱氮脱氧；但相较未硫化的CoMo，硫化处理并未明显改善脱氮程度及处理油收率。Pt催化剂下，航空燃油沸程内组分的最高占比为37.7%，无催化条件最低，为26.6%。研究说明微藻生物原油催化提质可为先进低碳燃料制备提供支持。注意37.7%是沸程组分比例，不能直接视作航油质量收率。",
+      "translation_source": "依据公开期刊摘要的中文人工翻译（末句为口径提示）",
+      "evidence_source": "https://doi.org/10.3390/cleantechnol8020034",
+      "facts_source": "期刊公开摘要（提取内容尚待全文实验细节复核）",
+      "abstract_facts": {
+        "cat_name": "sCoMo/Al₂O₃、未硫化CoMo/Al₂O₃对照、Pt/Al₂O₃",
+        "cat_type": "负载型硫化钴钼与贵金属加氢处理催化剂",
+        "cat_support": "Al₂O₃",
+        "rx_feed": "小球藻、斜生栅藻、生活污水培养混合藻，经HTL获得生物原油后进行加氢提质",
+        "out_oil": "sCoMo相较Pt获得更高提质油收率；摘要未给出质量收率具体值",
+        "out_jet": "Pt对应航油沸程组分占比37.7%，无催化对照26.6%（并非航油质量收率）",
+        "out_hdn": "sCoMo改善脱氮脱氧，但与未硫化CoMo比较，硫化未显著提高脱氮水平",
+        "out_novel": "真实微藻HTL油中硫化CoMo与Pt催化剂对比，同时考察航油沸程分布与脱氮"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.1016/j.nxener.2026.100543",
@@ -5106,7 +5194,27 @@
       "screening_tier": "核心相关",
       "screening_score": 17,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "污水培养微藻的一步水热液化与催化提质：制备可持续航空燃油前驱体",
+      "abstract_zh": "针对航空减碳目标，本文研究了污水培养微藻通过一步水热液化与催化提质制备可持续航空燃油前驱体。在320 °C、30 min和10% NiMo/Al₂O₃催化剂条件下，生物油的最高收率达到23.07%（干基）。在相同温度和催化剂比例下，反应延长至120 min时得到最高高位热值41.77 MJ/kg。温度对生物油产率影响显著，而催化剂在脱硫方面起关键作用。响应面分析指出，约324 °C、15% NiMo/Al₂O₃的区域可在较高油收率和低硫含量之间取得平衡。由于延长反应时间对结果改善不显著，研究建议采用30 min以提高能源效率。生物油以芳香烃为主，同时含少量烷烃与环烷烃，具备作为航空燃油前驱体的潜力。不过，要实际满足航空燃油标准，仍需进一步精炼及技术经济和环境评估。",
+      "translation_source": "依据 ACS Omega 公开摘要的中文人工翻译；非整篇正文翻译",
+      "evidence_source": "https://pubs.acs.org/doi/10.1021/acsomega.5c10732",
+      "facts_source": "ACS Omega 公开摘要与正文核对（摘要给出工况和结果）",
+      "abstract_facts": {
+        "cat_name": "NiMo/Al₂O₃",
+        "cat_type": "镍钼/氧化铝负载型催化剂",
+        "cat_active": "NiMo/Al₂O₃ 催化剂投加比例 10% 或 15%（是催化剂添加比例，不能直接理解为Ni/Mo金属负载量）",
+        "cat_support": "Al₂O₃",
+        "rx_feed": "污水培养微藻（wastewater-grown microalgae）；一步催化HTL制备生物油，不能视作独立完成的二段生物原油加氢处理",
+        "rx_temp": "320 °C（最高油收率实验）；约324 °C（响应面优化区域）",
+        "rx_time": "30 min（最高油收率）；120 min（最高HHV）",
+        "rx_catalyst": "10% NiMo/Al₂O₃（最高收率、最高HHV实验），15%（优化区域）；具体质量基准需查原文方法",
+        "out_oil": "最高生物油收率23.07%（干基，320 °C、30 min、10%催化剂）",
+        "out_phys": "最高HHV 41.77 MJ/kg（320 °C、120 min、10%催化剂）",
+        "out_novel": "把真实污水培养微藻用于一步催化HTL，并使用响应面优化温度、时间和催化剂比例"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.1002/ep.70317",
@@ -5205,7 +5313,25 @@
       "screening_tier": "核心相关",
       "screening_score": 13,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "通过Rh/TiO₂价态调控自由基反应路径，实现生物质选择性制备航空燃油",
+      "abstract_zh": "光催化生物质转化有望在温和条件下制备航空燃油，但自由基中间体多样使产物选择性调控困难。本研究通过改变TiO₂上Rh助催化剂的价态，调节氢自由基转移并控制反应路径，实现生物质衍生脂肪酸光催化脱羧过程中向C₈–C₁₈航油范围烃的选择性切换。氧化态Rh³⁺促进脱羧后加氢，形成比原脂肪酸少一个碳的Cₙ₋₁烷烃；还原态Rh⁰促进脱羧后C–C偶联，生成C₂ₙ₋₂烷烃。该策略对脂肪酸、芳香酸、支链脂肪酸和环烷酸等多类生物质来源有机酸均表现出产物路径控制能力。研究强调可通过自由基在催化剂表面的空间定向调控，提高目标航空范围烃的选择性。",
+      "translation_source": "依据 ACS Nano 公开摘要的中文人工翻译",
+      "evidence_source": "https://doi.org/10.1021/acsnano.5c19788",
+      "facts_source": "期刊公开摘要（具体光强和反应时间待全文核验）",
+      "abstract_facts": {
+        "cat_name": "Rh/TiO₂（Rh³⁺与Rh⁰价态调控）",
+        "cat_type": "金属/半导体光催化体系",
+        "cat_active": "Rh，不同价态Rh³⁺、Rh⁰",
+        "cat_support": "TiO₂",
+        "cat_site": "Rh³⁺促进脱羧加氢；Rh⁰促进脱羧偶联；TiO₂表面自由基转移调控",
+        "rx_feed": "生物质衍生脂肪酸、芳香酸、支链脂肪酸、环烷酸；模型底物而非直接原油",
+        "rx_mode": "光催化脱羧；通过Rh价态改变产物路径",
+        "out_jet": "C8–C18烃类为目标范围；摘要未提供总体质量收率/选择性数值",
+        "out_novel": "用Rh价态与自由基空间导向控制Cₙ₋₁加氢路径与C₂ₙ₋₂偶联路径"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.59717/j.xinn-energy.2026.100130",
@@ -5683,7 +5809,26 @@
       "screening_tier": "核心相关",
       "screening_score": 15,
       "screening_method": "Title/abstract keyword triage; NOT full-text verified",
-      "fulltext_status": "全文待核验"
+      "fulltext_status": "全文待核验",
+      "title_zh": "从餐厨废弃物到可持续航空燃油：预处理水热液化生物原油的钴钼催化提质",
+      "abstract_zh": "利用湿态生物废弃物生产可持续航空燃油有助于航空业脱碳。尽管餐厨废弃物经水热液化可得到高能量密度生物原油，但其复杂组成给直接替代型燃料的性能达标带来挑战。本研究通过单段钴钼催化加氢处理，将餐厨废弃物来源的生物原油转化为航空燃油候选产物。研究先使用田口方法筛选加氢处理参数，再通过响应面法优化。所得燃料候选样品在无需掺混的情况下，满足研究所考察的航空燃油硫含量、密度、黏度、闪点和冰点等性能要求。按研究采用的资源循环度指标衡量，该路线相较常规航空燃油提高了能量循环度31.1个百分点、碳循环度17.0个百分点（具体口径见原文）。作者指出，未来仍需通过优化反应与催化剂提高异构化程度，以改善燃料性能。",
+      "translation_source": "依据期刊公开摘要的中文人工译述；实验指标以原文为准",
+      "evidence_source": "https://www.nature.com/articles/s41467-025-64645-y",
+      "facts_source": "期刊正文/摘要核对（Nature Communications，Methods；2026-10-20查阅）",
+      "abstract_facts": {
+        "cat_name": "CoMo（钴钼）加氢处理催化剂；确切配方与硫化状态需查 Methods",
+        "cat_type": "钴钼双金属加氢处理体系",
+        "rx_feed": "美国伊利诺伊州食品加工厂的餐厨废弃物；连续式HTL制备生物原油，再经热水洗盐、脱水、蒸馏脱灰后加氢处理",
+        "rx_reactor": "原料制油：中试连续活塞流 HTL 反应器；提质采用加氢处理体系（装置条件见原文）",
+        "rx_temp": "原料HTL：300 °C；加氢提质研究比较不同温度（文中包含450 °C条件），不能把HTL温度误作加氢温度",
+        "rx_pressure": "原料HTL：12.4 MPa；这是HTL工况，不等同于加氢提质压力",
+        "rx_time": "原料HTL停留时间：20 min；加氢停留时间另见原文",
+        "out_phys": "经蒸馏获得的候选航油馏分接受密度、黏度、闪点、冰点等性能检查；不表示取得ASTM路径认证",
+        "out_hdo": "研究报告部分样品氧和硫去除充分；具体氮去除程度受工况和检测限影响，需看正文 Fig. 2",
+        "out_novel": "餐厨废弃物 HTL—预处理—单段 CoMo 加氢处理，并结合燃料物性筛选与循环度分析"
+      },
+      "abstract_fact_status": "公开摘要/原始期刊页面摘录；仍需核验完整实验方法",
+      "reading_quality": "selected_research_paper"
     },
     {
       "id": "doi:10.53964/id.2025016",
@@ -6492,5 +6637,9 @@
     "扩展参考": 74,
     "背景候选": 8,
     "可能不相关": 7
-  }
+  },
+  "zh_translation_count": 8,
+  "abstract_fact_record_count": 8,
+  "curated_abstract_update_at": "2026-10-20",
+  "curated_data_policy": "Source-bound per-paper abstract extraction; missing fields remain unverified, and do not imply full-text paper review."
 }
