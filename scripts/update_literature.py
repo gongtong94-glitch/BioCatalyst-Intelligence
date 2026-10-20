@@ -165,6 +165,57 @@ def merge(prev,new):
     return old
 
 
+
+# V2.6: best-effort translation of PUBLIC abstracts for the top-scoring SAF papers.
+# Translation is machine generated, cached, and never treated as original research evidence.
+def translate_public(text,limit=2100):
+    text=clean_text(text)
+    if not text or not re.search(r'[a-zA-Z]{4}',text) or re.search(r'[\u4e00-\u9fff]',text): return None
+    short=text[:limit]
+    chunks=[]
+    while short:
+        n=min(390,len(short))
+        if len(short)>n:
+            cut=short.rfind('. ',0,n)
+            if cut>=220:n=cut+2
+        chunks.append(short[:n].strip());short=short[n:].strip()
+    translations=[]
+    for ch in chunks:
+        p={'q':ch,'langpair':'en|zh-CN'}
+        if os.environ.get('CONTACT_EMAIL'):p['de']=os.environ['CONTACT_EMAIL']
+        url='https://api.mymemory.translated.net/get?'+urllib.parse.urlencode(p)
+        try:
+            req=urllib.request.Request(url,headers={'User-Agent':USER_AGENT,'Accept':'application/json'})
+            with urllib.request.urlopen(req,timeout=7) as response: data=json.load(response)
+            t=clean_text((data.get('responseData') or {}).get('translatedText',''))
+            if not re.search(r'[\u4e00-\u9fff]',t):return None
+            translations.append(t)
+        except (OSError,ValueError,TimeoutError,urllib.error.URLError):
+            return None
+    return {'translation':'\n'.join(translations),'excerpt':len(text)>limit}
+
+def enrich_chinese(papers):
+    if not papers:return {'selected':0,'titles':0,'abstracts':0}
+    latest=max((p.get('first_seen_at') or '')[:10] for p in papers)
+    candidates=[p for p in papers if (p.get('first_seen_at') or '')[:10]==latest
+        and classify_scope(p.get('title',''),p.get('abstract',''))['screening_tier']=='核心相关'
+        and p.get('doi')]
+    keywords=r'jet.fuel|bio.jet|aviation|hydrodeoxy|hydrodenitrogen|catalyst|catalytic|biocrude'
+    preferred=r'applied catalysis b|acs catalysis|chemical engineering journal|green chemistry|bioresource technology|fuel|applied energy|energy conversion'
+    candidates.sort(key=lambda p:(bool(re.search(preferred,p.get('journal',''),re.I)), bool(re.search(keywords,p.get('title',''),re.I)),p.get('screening_score',0)),reverse=True)
+    candidates=candidates[:8];titles=abstracts=0
+    for p in candidates:
+        if not p.get('title_zh'):
+            r=translate_public(p.get('title',''),limit=450)
+            if r:p['title_zh']=r['translation'];titles+=1
+        if p.get('abstract') and not p.get('abstract_zh'):
+            r=translate_public(p['abstract'])
+            if r:
+                p.update({'abstract_zh':r['translation'],'abstract_zh_excerpt':r['excerpt'],
+                          'translation_source':'MyMemory public machine translation; not checked against full text'})
+                abstracts+=1
+    return {'selected':len(candidates),'titles':titles,'abstracts':abstracts}
+
 def run(max_topics=None):
     cfg=json.loads(TOPICS.read_text(encoding='utf-8'))
     raw=json.loads(DB.read_text(encoding='utf-8')) if DB.exists() else {'papers':[]}
@@ -203,9 +254,11 @@ def run(max_topics=None):
         v.setdefault('fulltext_status','全文待核验')
     papers=sorted(prev.values(),key=lambda p:((p.get('date') or '0000'),(p.get('first_seen_at') or '')),reverse=True)
     papers=papers[:cfg['max_stored_papers']]
+    translation_stats=enrich_chinese(papers)
     raw.update({'schema_version':2,'last_attempt':utc_now(),'last_success':utc_now(),
                 'source_status':'success' if not errors else 'partial',
                 'success_sources':sorted(set(successes)), 'errors':errors[:30],
+                'translation_stats':translation_stats,
                 'query_window_start':from_date,'new_added_count':new_cnt,'hits_processed':hits,
                 'priority_recommendation_ids':[x['id'] for x in sorted((p for p in papers if p.get('screening_tier')=='核心相关' and p.get('first_seen_at','')[:10]==now.date().isoformat()),key=lambda x:(-x.get('screening_score',0),x.get('date','')))[:8]],
                 'screening_counts':{t:sum(p.get('screening_tier')==t for p in papers) for t in ('核心相关','扩展参考','背景候选','可能不相关')},'papers':papers})
