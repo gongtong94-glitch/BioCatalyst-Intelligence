@@ -1,0 +1,56 @@
+{
+  "metric": "Journal Impact Factor (JIF), not CiteScore",
+  "metric_year": 2025,
+  "last_checked": "2026-10-20",
+  "note": "期刊影响因子属于期刊层面指标，不代表单篇论文质量。来源为出版社/期刊官网，CEJ 为标注出处的第三方汇总；没有可靠来源则不显示数字。",
+  "journals": [
+    {
+      "journal": "Nature Communications",
+      "value": 18.1,
+      "year": 2025,
+      "source_url": "https://www.nature.com/ncomms/ncomms/journal-impact",
+      "source_name": "Nature Portfolio 期刊官网",
+      "source_type": "publisher"
+    },
+    {
+      "journal": "ACS Catalysis",
+      "value": 13.6,
+      "year": 2025,
+      "source_url": "https://pubs.acs.org/journal/accacs",
+      "source_name": "ACS Publications 期刊官网",
+      "source_type": "publisher"
+    },
+    {
+      "journal": "Green Chemistry",
+      "value": 10.6,
+      "year": 2025,
+      "source_url": "https://www.rsc.org/publishing/journals/green-chemistry",
+      "source_name": "Royal Society of Chemistry 期刊官网",
+      "source_type": "publisher"
+    },
+    {
+      "journal": "Chemical Engineering Journal",
+      "value": 12.5,
+      "year": 2025,
+      "source_url": "https://www.ablesci.com/journal/detail?id=w5g8JD",
+      "source_name": "科研通（第三方汇总，待 JCR 直接复核）",
+      "source_type": "secondary"
+    },
+    {
+      "journal": "AIChE Journal",
+      "value": 4.4,
+      "year": 2025,
+      "source_url": "https://onlinelibrary.wiley.com/journal/15475905",
+      "source_name": "Wiley 期刊官网",
+      "source_type": "publisher"
+    },
+    {
+      "journal": "Energy & Fuels",
+      "value": 6,
+      "year": 2025,
+      "source_url": "https://pubs.acs.org/journal/enfuem",
+      "source_name": "ACS Publications 期刊官网",
+      "source_type": "publisher"
+    }
+  ]
+}
