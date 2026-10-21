@@ -1,24 +1,17 @@
 {
   "schema_version": 3,
-  "last_attempt": null,
-  "last_success": null,
-  "source_status": "manual_curated_initial",
+  "last_attempt": "2026-10-21T00:58:38Z",
+  "last_success": "2026-10-21T00:58:38Z",
+  "source_status": "success",
   "success_sources": [
-    "原始期刊出版页面"
+    "Crossref",
+    "OpenAlex"
   ],
   "errors": [],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-10-20",
-  "new_added_count": 7,
-  "priority_recommendation_ids": [
-    "doi:10.1038/s41467-026-70996-x",
-    "doi:10.1039/d5gc05950j",
-    "doi:10.1021/acscatal.5c07118",
-    "doi:10.1021/acscatal.6c03942",
-    "doi:10.1016/j.cej.2025.161494",
-    "doi:10.1002/aic.70353",
-    "doi:10.1021/acs.energyfuels.6c00633"
-  ],
+  "curation_date": "2026-10-21",
+  "new_added_count": 0,
+  "priority_recommendation_ids": [],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
   "import_policy": "archive Oct19 136 papers; only fresh DOI not in archive permitted in current curated library; 0 to 10 if insufficient",
   "papers": [
@@ -799,13 +792,15 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-10-20T10:54:02Z",
+  "fulltext_last_attempt": "2026-10-21T00:58:45Z",
   "fulltext_batch_stats": {
-    "xml_ok": 1,
+    "xml_ok": 0,
     "pdf_ok": 0,
-    "metadata_only": 6,
+    "metadata_only": 0,
     "skipped_no_doi": 0,
-    "skipped_recent": 0,
+    "skipped_recent": 7,
     "errors": 0
-  }
+  },
+  "query_window_start": "2026-09-06",
+  "hits_processed": 109
 }
