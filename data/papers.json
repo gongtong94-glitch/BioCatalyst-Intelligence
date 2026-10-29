@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "last_attempt": "2026-10-28T01:12:15Z",
-  "last_success": "2026-10-28T01:12:15Z",
+  "last_attempt": "2026-10-29T01:10:19Z",
+  "last_success": "2026-10-29T01:10:19Z",
   "source_status": "success",
   "success_sources": [
     "Crossref",
@@ -9,12 +9,74 @@
   ],
   "errors": [],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-10-28",
-  "new_added_count": 0,
-  "priority_recommendation_ids": [],
+  "curation_date": "2026-10-29",
+  "new_added_count": 1,
+  "priority_recommendation_ids": [
+    "doi:10.1016/j.apcatb.2026.127679"
+  ],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
   "import_policy": "archive Oct19 136 papers; only fresh DOI not in archive permitted in current curated library; 0 to 10 if insufficient",
   "papers": [
+    {
+      "id": "doi:10.1016/j.apcatb.2026.127679",
+      "title": "Efficient production of adipic acid from lignin-derived phenol via tandem thermochemical-electrochemical catalysis",
+      "abstract": "",
+      "doi": "10.1016/j.apcatb.2026.127679",
+      "url": "https://doi.org/10.1016/j.apcatb.2026.127679",
+      "authors": [
+        "Mingzhu Han",
+        "Mengxiang Han",
+        "Xuyun Guo",
+        "Wenyuan Yuan",
+        "Jizhe Ma",
+        "Zezhong Shan",
+        "Chuyun Ma",
+        "Yingxin Ma",
+        "Jian Shang",
+        "Valeria Nicolosi"
+      ],
+      "journal": "Applied Catalysis B: Environment and Energy",
+      "date": "2027-05",
+      "year": 2027,
+      "kind": "journal-article",
+      "sources": [
+        "Crossref"
+      ],
+      "directions": [
+        "电催化"
+      ],
+      "feedstocks": [
+        "木质素"
+      ],
+      "reactions": [],
+      "materials": [],
+      "relevance": 6,
+      "cited_by": null,
+      "oa_url": "",
+      "evidence_status": "自动优选候选：仅题录/摘要核验，非全文已读",
+      "first_seen_at": "2026-10-29T01:10:17Z",
+      "last_seen_at": "2026-10-29T01:10:17Z",
+      "topics": [],
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 4,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验",
+      "date_not_today_notice": "今日优选收录不表示当天发表",
+      "curated_added_at": "2026-10-29",
+      "selection_reason": "高相关主题、学术出版源以及期刊/催化剂新颖性线索",
+      "priority_score": 48,
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-10-29T01:10:28Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC DOI lookup",
+          "OpenAlex DOI lookup"
+        ]
+      }
+    },
     {
       "id": "doi:10.1038/s41467-026-70996-x",
       "title": "Direct conversion of enzymatic hydrolysis lignin to jet fuel via relay catalysis",
@@ -792,15 +854,15 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-10-28T01:12:23Z",
+  "fulltext_last_attempt": "2026-10-29T01:10:28Z",
   "fulltext_batch_stats": {
     "xml_ok": 0,
     "pdf_ok": 0,
-    "metadata_only": 0,
+    "metadata_only": 1,
     "skipped_no_doi": 0,
     "skipped_recent": 7,
     "errors": 0
   },
-  "query_window_start": "2026-09-13",
-  "hits_processed": 98
+  "query_window_start": "2026-09-14",
+  "hits_processed": 100
 }
