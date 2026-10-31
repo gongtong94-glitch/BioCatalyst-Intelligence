@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "last_attempt": "2026-10-30T01:13:34Z",
-  "last_success": "2026-10-30T01:13:34Z",
+  "last_attempt": "2026-10-31T01:12:02Z",
+  "last_success": "2026-10-31T01:12:02Z",
   "source_status": "success",
   "success_sources": [
     "Crossref",
@@ -9,11 +9,9 @@
   ],
   "errors": [],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-10-30",
-  "new_added_count": 1,
-  "priority_recommendation_ids": [
-    "doi:10.1016/j.apcatb.2026.127668"
-  ],
+  "curation_date": "2026-10-31",
+  "new_added_count": 0,
+  "priority_recommendation_ids": [],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
   "import_policy": "archive Oct19 136 papers; only fresh DOI not in archive permitted in current curated library; 0 to 10 if insufficient",
   "papers": [
@@ -915,15 +913,15 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-10-30T01:13:47Z",
+  "fulltext_last_attempt": "2026-10-31T01:12:11Z",
   "fulltext_batch_stats": {
     "xml_ok": 0,
     "pdf_ok": 0,
-    "metadata_only": 1,
+    "metadata_only": 0,
     "skipped_no_doi": 0,
-    "skipped_recent": 8,
+    "skipped_recent": 9,
     "errors": 0
   },
-  "query_window_start": "2026-09-15",
-  "hits_processed": 100
+  "query_window_start": "2026-09-16",
+  "hits_processed": 98
 }
