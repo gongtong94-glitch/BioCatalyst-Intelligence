@@ -1,15 +1,26 @@
 {
   "schema_version": 3,
-  "last_attempt": "2026-11-04T01:20:00Z",
-  "last_success": "2026-11-04T01:20:00Z",
-  "source_status": "success",
+  "last_attempt": "2026-11-05T01:21:45Z",
+  "last_success": "2026-11-05T01:21:45Z",
+  "source_status": "partial",
   "success_sources": [
     "Crossref",
     "OpenAlex"
   ],
-  "errors": [],
+  "errors": [
+    "OpenAlex / HTL-HDN: HTTP Error 429: Too Many Requests",
+    "OpenAlex / BIO-HDO: HTTP Error 429: Too Many Requests",
+    "OpenAlex / HTL-UP: HTTP Error 429: Too Many Requests",
+    "OpenAlex / EL-UP: HTTP Error 429: Too Many Requests",
+    "OpenAlex / NTP-UP: HTTP Error 429: Too Many Requests",
+    "OpenAlex / ZEOLITE: HTTP Error 429: Too Many Requests",
+    "OpenAlex / HTL-HDN2: HTTP Error 429: Too Many Requests",
+    "OpenAlex / BIO-HISO: HTTP Error 429: Too Many Requests",
+    "OpenAlex / BIO-DECARB: HTTP Error 429: Too Many Requests",
+    "OpenAlex / BIO-PHOSPHIDE: HTTP Error 429: Too Many Requests"
+  ],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-11-04",
+  "curation_date": "2026-11-05",
   "new_added_count": 0,
   "priority_recommendation_ids": [],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
@@ -913,15 +924,15 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-11-04T01:20:15Z",
+  "fulltext_last_attempt": "2026-11-05T01:21:56Z",
   "fulltext_batch_stats": {
     "xml_ok": 0,
     "pdf_ok": 0,
-    "metadata_only": 6,
+    "metadata_only": 0,
     "skipped_no_doi": 0,
-    "skipped_recent": 3,
+    "skipped_recent": 9,
     "errors": 0
   },
-  "query_window_start": "2026-09-20",
-  "hits_processed": 100
+  "query_window_start": "2026-09-21",
+  "hits_processed": 27
 }
