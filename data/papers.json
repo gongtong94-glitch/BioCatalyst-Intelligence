@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "last_attempt": "2026-11-12T01:26:47Z",
-  "last_success": "2026-11-12T01:26:47Z",
+  "last_attempt": "2026-11-13T01:23:07Z",
+  "last_success": "2026-11-13T01:23:07Z",
   "source_status": "success",
   "success_sources": [
     "Crossref",
@@ -9,7 +9,7 @@
   ],
   "errors": [],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-11-12",
+  "curation_date": "2026-11-13",
   "new_added_count": 0,
   "priority_recommendation_ids": [],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
@@ -67,7 +67,7 @@
       "priority_score": 54,
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-10-30T01:13:47Z",
+        "checked_at": "2026-11-13T01:23:22Z",
         "url": "",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -913,7 +913,7 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-11-12T01:26:58Z",
+  "fulltext_last_attempt": "2026-11-13T01:23:22Z",
   "fulltext_batch_stats": {
     "xml_ok": 0,
     "pdf_ok": 0,
@@ -922,6 +922,6 @@
     "skipped_recent": 8,
     "errors": 0
   },
-  "query_window_start": "2026-09-28",
-  "hits_processed": 102
+  "query_window_start": "2026-09-29",
+  "hits_processed": 97
 }
