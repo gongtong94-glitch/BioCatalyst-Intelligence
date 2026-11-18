@@ -1,15 +1,20 @@
 {
   "schema_version": 3,
-  "last_attempt": "2026-11-17T01:26:53Z",
-  "last_success": "2026-11-17T01:26:53Z",
-  "source_status": "success",
+  "last_attempt": "2026-11-18T01:30:51Z",
+  "last_success": "2026-11-18T01:30:51Z",
+  "source_status": "partial",
   "success_sources": [
     "Crossref",
     "OpenAlex"
   ],
-  "errors": [],
+  "errors": [
+    "OpenAlex / HTL-HDN2: HTTP Error 429: Too Many Requests",
+    "OpenAlex / ELECTRO-KOLBE: HTTP Error 429: Too Many Requests",
+    "OpenAlex / ELECTRO-ECH: HTTP Error 429: Too Many Requests",
+    "OpenAlex / PHOTO-DECARB: HTTP Error 429: Too Many Requests"
+  ],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-11-17",
+  "curation_date": "2026-11-18",
   "new_added_count": 0,
   "priority_recommendation_ids": [],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
@@ -534,7 +539,7 @@
       "oa_url": "",
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-11-04T01:20:10Z",
+        "checked_at": "2026-11-18T01:31:03Z",
         "url": "",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -605,7 +610,7 @@
       "oa_url": "",
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-11-04T01:20:11Z",
+        "checked_at": "2026-11-18T01:31:04Z",
         "url": "",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -678,7 +683,7 @@
       "oa_url": "",
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-11-04T01:20:12Z",
+        "checked_at": "2026-11-18T01:31:05Z",
         "url": "",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -751,7 +756,7 @@
       "oa_url": "https://doi.org/10.1016/j.cej.2025.161494",
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-11-04T01:20:13Z",
+        "checked_at": "2026-11-18T01:31:13Z",
         "url": "https://doi.org/10.1016/j.cej.2025.161494",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -824,7 +829,7 @@
       "oa_url": "",
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-11-04T01:20:14Z",
+        "checked_at": "2026-11-18T01:31:14Z",
         "url": "",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -896,7 +901,7 @@
       "oa_url": "",
       "oa_fulltext": {
         "status": "metadata_only_not_accessed",
-        "checked_at": "2026-11-04T01:20:15Z",
+        "checked_at": "2026-11-18T01:31:15Z",
         "url": "",
         "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
         "attempted": [
@@ -913,15 +918,15 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-11-17T01:27:00Z",
+  "fulltext_last_attempt": "2026-11-18T01:31:15Z",
   "fulltext_batch_stats": {
     "xml_ok": 0,
     "pdf_ok": 0,
-    "metadata_only": 0,
+    "metadata_only": 6,
     "skipped_no_doi": 0,
-    "skipped_recent": 9,
+    "skipped_recent": 3,
     "errors": 0
   },
-  "query_window_start": "2026-10-03",
-  "hits_processed": 98
+  "query_window_start": "2026-10-04",
+  "hits_processed": 92
 }
