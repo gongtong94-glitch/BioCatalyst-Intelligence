@@ -1,28 +1,135 @@
 {
   "schema_version": 3,
-  "last_attempt": "2026-11-19T01:28:12Z",
-  "last_success": "2026-11-19T01:28:12Z",
-  "source_status": "partial",
+  "last_attempt": "2026-11-20T07:19:59Z",
+  "last_success": "2026-11-20T07:19:59Z",
+  "source_status": "success",
   "success_sources": [
     "Crossref",
     "OpenAlex"
   ],
-  "errors": [
-    "OpenAlex / BIO-HCK: HTTP Error 429: Too Many Requests",
-    "OpenAlex / NTP-UP: HTTP Error 429: Too Many Requests",
-    "OpenAlex / HTL-HDN2: HTTP Error 429: Too Many Requests",
-    "OpenAlex / BIO-PHOSPHIDE: HTTP Error 429: Too Many Requests",
-    "OpenAlex / PHOTO-DECARB: HTTP Error 429: Too Many Requests",
-    "OpenAlex / PHOTO-THERMAL: HTTP Error 429: Too Many Requests",
-    "OpenAlex / NTP-LIQUID: HTTP Error 429: Too Many Requests"
-  ],
+  "errors": [],
   "date_basis": "优选日期≠发表日期",
-  "curation_date": "2026-11-19",
-  "new_added_count": 0,
-  "priority_recommendation_ids": [],
+  "curation_date": "2026-11-20",
+  "new_added_count": 2,
+  "priority_recommendation_ids": [
+    "doi:10.1016/j.apcatb.2026.127796",
+    "doi:10.1016/j.apcatb.2026.127806"
+  ],
   "archive_path": "archive/2026-10-19/papers_full_backup.json",
   "import_policy": "archive Oct19 136 papers; only fresh DOI not in archive permitted in current curated library; 0 to 10 if insufficient",
   "papers": [
+    {
+      "id": "doi:10.1016/j.apcatb.2026.127796",
+      "title": "A molecularly bridged organic-inorganic interface enables visible-light-assisted photothermal upgrading of biomass-derived aldehydes to value-added N-heterocycles",
+      "abstract": "",
+      "doi": "10.1016/j.apcatb.2026.127796",
+      "url": "https://doi.org/10.1016/j.apcatb.2026.127796",
+      "authors": [
+        "Heng Li",
+        "Yueqi Song",
+        "Jingyan Xu",
+        "Zhaohe Jiang",
+        "Ankang Jia",
+        "Shuyue Feng",
+        "Aijun Guo",
+        "Kun Chen"
+      ],
+      "journal": "Applied Catalysis B: Environment and Energy",
+      "date": "2027-05",
+      "year": 2027,
+      "kind": "journal-article",
+      "sources": [
+        "Crossref"
+      ],
+      "directions": [
+        "光催化"
+      ],
+      "feedstocks": [
+        "生物质衍生物"
+      ],
+      "reactions": [],
+      "materials": [],
+      "relevance": 6,
+      "cited_by": null,
+      "oa_url": "",
+      "evidence_status": "自动优选候选：仅题录/摘要核验，非全文已读",
+      "first_seen_at": "2026-11-20T07:18:27Z",
+      "last_seen_at": "2026-11-20T07:18:46Z",
+      "topics": [],
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 6,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验",
+      "date_not_today_notice": "今日优选收录不表示当天发表",
+      "curated_added_at": "2026-11-20",
+      "selection_reason": "高相关主题、学术出版源以及期刊/催化剂新颖性线索",
+      "priority_score": 54,
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-11-20T07:20:08Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC lookup error: HTTP Error 503: Service Temporarily Unavailable",
+          "OpenAlex DOI lookup"
+        ]
+      }
+    },
+    {
+      "id": "doi:10.1016/j.apcatb.2026.127806",
+      "title": "MoO42- leaching as a positive interfacial regulator enables dynamic reconstruction of highly active Co4+-O2 for efficient biomass electrocatalytic conversion",
+      "abstract": "",
+      "doi": "10.1016/j.apcatb.2026.127806",
+      "url": "https://doi.org/10.1016/j.apcatb.2026.127806",
+      "authors": [
+        "Pengfei Long",
+        "Wanshun Duan",
+        "Yue Xiao",
+        "Qijia Su",
+        "Xuexue Li",
+        "Fuxi Bao"
+      ],
+      "journal": "Applied Catalysis B: Environment and Energy",
+      "date": "2027-05",
+      "year": 2027,
+      "kind": "journal-article",
+      "sources": [
+        "Crossref"
+      ],
+      "directions": [
+        "电催化"
+      ],
+      "feedstocks": [],
+      "reactions": [],
+      "materials": [],
+      "relevance": 7,
+      "cited_by": null,
+      "oa_url": "",
+      "evidence_status": "自动优选候选：仅题录/摘要核验，非全文已读",
+      "first_seen_at": "2026-11-20T07:18:27Z",
+      "last_seen_at": "2026-11-20T07:19:32Z",
+      "topics": [],
+      "curated": false,
+      "screening_tier": "核心相关",
+      "screening_score": 4,
+      "screening_method": "Title/abstract keyword triage; NOT full-text verified",
+      "fulltext_status": "全文待核验",
+      "date_not_today_notice": "今日优选收录不表示当天发表",
+      "curated_added_at": "2026-11-20",
+      "selection_reason": "高相关主题、学术出版源以及期刊/催化剂新颖性线索",
+      "priority_score": 48,
+      "oa_fulltext": {
+        "status": "metadata_only_not_accessed",
+        "checked_at": "2026-11-20T07:20:09Z",
+        "url": "",
+        "note": "No machine-readable open full text retrieved; paywalled sources never bypassed",
+        "attempted": [
+          "Europe PMC lookup error: HTTP Error 503: Service Temporarily Unavailable",
+          "OpenAlex DOI lookup"
+        ]
+      }
+    },
     {
       "id": "doi:10.1016/j.apcatb.2026.127668",
       "title": "Loading-regulated high-entropy metal-CeO2 interfaces enable tandem hydrodeoxygenation of lignin derivatives via reactive hydrogen transfer",
@@ -921,15 +1028,15 @@
     "source": "https://www.nature.com/articles/s41467-026-70996-x",
     "notice": "Reviewer read public full text, not supplementary tables; no extrapolated measurements"
   },
-  "fulltext_last_attempt": "2026-11-19T01:28:19Z",
+  "fulltext_last_attempt": "2026-11-20T07:20:09Z",
   "fulltext_batch_stats": {
     "xml_ok": 0,
     "pdf_ok": 0,
-    "metadata_only": 0,
+    "metadata_only": 2,
     "skipped_no_doi": 0,
     "skipped_recent": 9,
     "errors": 0
   },
-  "query_window_start": "2026-10-05",
-  "hits_processed": 84
+  "query_window_start": "2026-10-06",
+  "hits_processed": 100
 }
